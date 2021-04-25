@@ -1,6 +1,6 @@
 # Tooling talks
 
-Tooling talks is series of talks about tooling.
+Tooling talks is monthly series of talks about tooling.
 
 ## Impetus
 
@@ -24,12 +24,12 @@ announced, you'll find it listed here with a link to where it will be streamed.
 ## The format of the talk
 
 The format will be that of one similar to a podcast. The conversation will be
-quite information, and also allow for some questions from those that are
+quite informal, and also allow for some questions from those that are
 watching if they fit into the context of what is being spoken about. The
 questions won't be that surprising as they'll be mostly prepared ahead of time
-and approved by the individual being interviewed. A good time target to shot for
-will be around the one hour mark.
-
+and approved by the individual being interviewed. A length to shoot for
+will be around the one hour mark however this may vary slightly depending on how
+the interview is going.
 
 ## The process
 
