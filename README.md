@@ -1,10 +1,10 @@
-# Tooling talks
-
-Tooling talks is monthly series of talks about tooling.
+<p align="center">
+  <img src="https://i.imgur.com/SZu4xQ7.jpg"/>
+</p>
 
 ## Impetus
 
-The idea for this series is came out of a combination of things:
+The idea for this series came out of a combination of things:
 
 1. I enjoy talking about tooling. I especially enjoy talking about tooling with
    others that work in tooling, enjoy tooling, and are willing to talk with me
@@ -15,11 +15,15 @@ The idea for this series is came out of a combination of things:
    tooling.
 3. Even during a lot of online conferences there isn't a large focus on tooling.
    So we'll overcompensate here, and we'll focus on it 100% of the time.
+4. Getting into tooling is hard, but I don't think it needs to be. Part of this
+   is a lack of content or an assumption that it's too difficult. Let's combat
+   this.
 
 ## Schedule
 
-*TBD* The schedule for this is currently being worked on. When the first talk is
-announced, you'll find it listed here with a link to where it will be streamed.
+twitch.tv/ckipp
+
+- Sunday, May 30th - 7PM CEST / 10AM PDT
 
 ## The format of the talk
 
