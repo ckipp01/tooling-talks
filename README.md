@@ -25,16 +25,6 @@ The idea for this series came out of a combination of things:
    is a lack of content or an assumption that it's too difficult. Let's combat
    this.
 
-## The format of the talk
-
-The format will be that of one similar to a podcast. The conversation will be
-quite informal, and also allow for some questions from those that are
-watching if they fit into the context of what is being spoken about. The
-questions won't be that surprising as they'll be mostly prepared ahead of time
-and approved by the individual being interviewed. A length to shoot for
-will be around the one hour mark however this may vary slightly depending on how
-the interview is going.
-
 ## Code of Conduct
 
 These talks will follow the [Scala Code of Conduct](https://www.scala-lang.org/conduct/).

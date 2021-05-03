@@ -1,4 +1,4 @@
-## The process
+# The process
 
 Once contacted, if the interviewee agrees, the following steps will be taken:
 
@@ -27,3 +27,14 @@ Once contacted, if the interviewee agrees, the following steps will be taken:
 
 4. After the stream the full video will then be uploaded to YouTube for those
    that may have missed the actual stream.
+
+## The format of the talk
+
+The format will be that of one similar to a podcast. The conversation will be
+quite informal, and also allow for some questions from those that are
+watching if they fit into the context of what is being spoken about. The
+questions won't be that surprising as they'll be mostly prepared ahead of time
+and approved by the individual being interviewed. A length to shoot for
+will be around the one hour mark however this may vary slightly depending on how
+the interview is going.
+
