@@ -5,9 +5,12 @@
 
 ## Links
 
-[@olafurpg on Twitter](https://twitter.com/olafurpg)
-[@olafurpg on GitHub](https://github.com/olafurpg)
+[@olafurpg](https://twitter.com/olafurpg) on Twitter
+
+[@olafurpg](https://github.com/olafurpg) on GitHub
+
 [geirsson.com](https://geirsson.com/)
+
 ## Notes
 
 Soon...
