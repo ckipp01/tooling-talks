@@ -7,6 +7,8 @@
 All talks will be streamed live at [twitch.tv/ckipp](https://www.twitch.tv/ckipp).
 
 - [A talk with Ólafur Páll Geirsson](./episodes/1-a-talk-with-Olaf.md) - Sunday, May 30th - 7PM CEST / 10AM PDT
+- A talk with TBA - Saturday, June 26th - 7PM CEST / 10AM PDT
+- A talk with TBA - Saturday, July 24th - 7PM CEST / 10AM PDT
 
 ## Impetus
 
