@@ -30,7 +30,3 @@ The idea for this series came out of a combination of things:
 ## Code of Conduct
 
 These talks will follow the [Scala Code of Conduct](https://www.scala-lang.org/conduct/).
-
-## Interested in supporting Tooling Talks? 
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R64KMZN)
