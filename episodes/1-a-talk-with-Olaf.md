@@ -16,6 +16,7 @@
 ## Transcript
 
 Chris
+
 I want to thank again everybody for being here. This is something I've really
 wanted to do for for quite some time. I've played around with like different
 formats of how I wanted to do this but ultimately it was always focused around
@@ -50,15 +51,18 @@ welcome Olaf as the first guest to Tooling Talks. So thank you for being here
 Olaf, I'm really excited.
 
 Olaf
+
 Thank you for inviting me.
 
 Chris
+
 Yeah so after that short introduction do you also want to do just like a short
 introduction of yourself and just maybe tell everybody who you are, where you
 work, where you're from, where you're situated? I don't know like anything else
 that you want to add about yourself.
 
 Olaf
+
 Sure, so but first of all thank you for organizing this. Yeah, it was kind of
 exciting when you invited me I thought this was a would be a fun chat. Yeah, I'm
 Olaf, and I live in Norway right now. I work at a company called Souregraph that
@@ -72,6 +76,7 @@ developer tooling for closing in on five years now. Yeah, excited to be here and
 chat.
 
 Chris
+
 Why don't you also give a short introduction in how you got interested in
 programming in the first place. I know that you, I think, believe went to
 university in it and then started working at the Scala Center, but yeah maybe
@@ -79,6 +84,7 @@ give us a better insight into how you first got started in programming and yeah
 go from there.
 
 Olaf
+
 Yeah, no I had never programmed, no one in my family programed. I didn't code
 anything in high school. I went to, I got a scholarship to do a year in the US
 in college that was not really to do the full program just one year, and I
@@ -93,6 +99,7 @@ compiler related work. I didn't do any compiler courses at all during my
 bachelors.
 
 Chris
+
 So okay, looking back at some of... I actually, I'm gonna take a pause because I
 do see that the chat is saying that the frame rate is really low which I see
 it's good from OBS. I don't know exactly what's going on but if something
@@ -105,12 +112,15 @@ earliest things and it seems that if I'm not misunderstanding it, Scalafmt in
 late 2015 was sort of the first large project that you started working on?
 
 Olaf
+
 That's true.
 
 Chris
+
 Yeah, go ahead talk a little bit about that.
 
 Olaf
+
 Yeah, so I was an intern at the time at Google in Zurich, Switzerland and then
 the project I was working on was kind of like the dependabot but for Google's
 internal monorepo. And this bot was enabling code formatting for a bunch of
@@ -128,6 +138,7 @@ react.js and stuff. So I hadn't really done any open source work before before
 that.
 
 Chris
+
 I wasn't doing Scala at this time but I'm also curious because and we've talked
 about this a little bit in the past I believe at that time Scalariform I believe
 also existed? Which was another code formatter. What made you come out with
@@ -136,17 +147,19 @@ either things that it didn't have, that one didn't have that you were adding or
 was it like everything from the internals was different?
 
 Olaf
-My kind of harsh view on it.
-I don't think everyone would agree, but like for me the big one is that
-Scalariform didn't have a maximum column setting, so it means that it would
-in my opinion it's more of an indenter because it will not take, it doesn't
-really impose any style whatsoever on how you format stuff it will choose what
-indentation level you will use at every line and that's it.
+
+My kind of harsh view on it.  I don't think everyone would agree, but like for
+me the big one is that Scalariform didn't have a maximum column setting, so it
+means that it would in my opinion it's more of an indenter because it will not
+take, it doesn't really impose any style whatsoever on how you format stuff it
+will choose what indentation level you will use at every line and that's it.
 
 Chris
+
 And that's it? Just indentation level?
 
 Olaf
+
 Yeah, and go fmt is exactly the same, and then you hear these Go people boast
 about like how fantastic go format is except like there's no settings right?
 Except you have to like configure every single line whether you're going to do a
@@ -160,18 +173,21 @@ same category and one is an indentor in my opinion and that's really useful for
 people who want that, but that's not what I wanted.
 
 Chris
+
 Okay right I feel like, well actually one other thing I wanted to ask about is
 that I've also think heard you referenced that it was inspired by prettier as
 well. Is that possibly true?
 
 Olaf
+
 That's not true because prettier didn't exist at the time no.
 
 Chris
-Okay
-So prettier is based on Scalafmt?
+
+Okay So prettier is based on Scalafmt?
 
 Olaf
+
 I'm not gonna say that either. I'd say the true original one is clang format
 which is just the phenomenal code formatter for c++. I tried to like copy some
 of the implementation approaches, which I was really bad at it so I'd like it
@@ -180,10 +196,12 @@ familiar with. And and that's all my fault and it's totally possible to use the
 same approach and do well but, I did not have the chops to do that.
 
 Chris
+
 Was there like one thing particular about it that was really solid that you say
 like you tried to copy things? Like was there a feature that it had or?
 
 Olaf
+
 No no, I think just ClangFormat is ridiculously fast and it does line wrapping
 and has a good like, it provides good settings like if you just want to use the
 Google code style you use the Google code style. If you use the Mozilla one you
@@ -191,21 +209,23 @@ use that one yeah, I think they got a lot of those things right that Scalafmt
 just has never gotten right or never managed to get right.
 
 Chris
+
 So you mentioned it really briefly and then we moved on and I actually
 want to spend some time on it. You mentioned Scalameta and then you
 like talked about some other stuff but I feel like a lot of the tools that you
 worked on are heavily reliant on that.
 
 Olaf
+
 They are and there's a big red thread around the whole, all of these projects
 and yeah so Eugene Bermako was a PhD student at EPFL, he was the author of the
-Scala 2 macro system Scala reflect and and author of the paradise macro
-annotation plugin and he was a fantastic advisor for me to work with. When I
-approached him he was so enthusiastic and at the time he had learned a lot of
-the lessons or like the caveats of what he had built and he wanted to do like a
-fresh start, which was Scalameta. So he wanted from the ground up to build a new
-meta programming toolkit that would address all meta programming needs in Scala
-down from like tokenizing parsing like macro expansion and everything. So when I
+Scala 2 macro system Scala reflect and author of the paradise macro annotation
+plugin and he was a fantastic advisor for me to work with. When I approached him
+he was so enthusiastic and at the time he had learned a lot of the lessons or
+like the caveats of what he had built and he wanted to do like a fresh start,
+which was Scalameta. So he wanted from the ground up to build a new meta
+programming toolkit that would address all meta programming needs in Scala down
+from like tokenizing parsing like macro expansion and everything. So when I
 approached him I said I wanted to do a code formatter, he said oh that perfectly
 fits within the umbrella of Scalameta and and so that's Scalameta. And that's
 the way it's mostly used today there is a tokenizer and there's a parser and it
@@ -214,10 +234,12 @@ construct. But I personally don't think I use quasi quotes in any of the
 projects that I've done so for me it's mostly just parsing strings into trees.
 
 Chris
+
 You didn't mention semanticdb there either. Was that a later addition to
 Scalameta?
 
 Olaf
+
 It was a later addition, yeah. That was something that came out right at the
 end. So Eugene joined twitter and he was working from there and then I joined
 the Scala Center.  That was not an obvious thing that happened but that's
