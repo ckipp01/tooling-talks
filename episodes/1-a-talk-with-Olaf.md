@@ -251,42 +251,72 @@ Scala 3 migrations and then what I say we added semanticdb. It was kind of the
 solution to enrich these parsers from Scala meta with semantic information which
 would be something like the symbol of something if you rename. Like flatmap you
 don't want to rename all flatmaps, you want to rename the ones that are on the
-collections only. Not like the ones that are IO task if that makes sense.
+collections only. Not like the ones that are IO task if that makes sense. But
+that came a few years later.
 
 Chris
 
-*Left Off*
+If understand it correctly, which I think I got it right last time I talked about it,
+but your work at Sourcegraph, when you're working on java-lsif also has to do
+with semanticdb right?
+
+Olaf
+
+Correct yeah, So I mean even in my job right now I'm working on the code Intel
+team at Sourcegraph and we're adding go-to definition, find references for 40
+plus programming languages, and currently that's what I've been working on since
+January. It's mostly Java and we did that by implementing a semantic compiler
+plugin for Java. So that's just completely complementing building on top of all
+of the prior work that I've been doing since 2016 basically.
+
+Chris
+
+Hypothetically could it ever be expanded to include other languages not on the
+JVM as well?
+
+Olaf
+
+You can for sure and a colleague of mine at Sourcegraph is experimenting, but
+this is really super super not, but like we might want to try and use the same
+approach for Kotlin. But you could do it for other languages as well. But at
+that point you might as well like just the general approach of emitting some
+part of the files that have semantic information is good enough.
+
+Chris
+
+One thing I've always wondered about Scalameta is, well I've wondered a lot
+of things about Scalameta, but one of the things I often hear about.
+
+Olaf
+
+Now's your time to ask questions.
+
+Chris
+
+This is actually just a time for me to ask all the questions.
+
+Olaf
+
+I haven't been active on getter so you just hopped on the call.
+
+Chris
+
+Hey do you want to do an interview? Yeah so one thing I've been meaning to
+ask you is because the possibilities are probably like
+endless of tooling that you could do with simply almost like trees and
+SemanticDB. So is there anything that you've ever thought about
+in your head of like oh, this would be a killer thing to make with Scalameta
+that just doesn't exist yet because either you don't have the time or you
+just don't know how you do it? Like what's the untapped area that you could
+use Scalameta for?
+
+Olaf
+
+*XXX*
 NOTE: if anyone wants to help improve this, please do, but ping me so we don't
 work on the same stuff. I will slowly continue down this as I get time.
 
-okay so but that came a few years later and if
-i understand it correct which i think i got it right last time i talked about it
-but your workout source graph when you're working on java lsif also has to do
-with semantic db is right correct yeah yeah yeah so i mean even in my job right
-now i'm working with uh i'm on the code intel team at sourcecraft and we're
-adding go to definition find references for uh 40 plus programming languages and
-and currently the what i've been working on since january is mostly java and uh
-we did that by implementing a semantic the compiler plugin for java so that's
-just completely complementing building on top of all of the prior work that's
-that i've been doing since 2016 basically hypothetically could it ever be
-expanded to include other languages not on the jvm as well you can for sure and
-and a colleague of mine that sourcecraft is experimenting but this is really
-super super nut but like we might want to try and use the same approach for
-kotlin um so but uh you could do it for other languages too yeah um but at that
-point you might as well like just the general approach of emitting some part of
-the files that have uh semantic information is is good enough um okay is there
-like one thing i've always wondered about scala meta is well i've wondered a lot
-of things about scala made up but one of the things i often hear about is now's
-your time to ask questions this is actually just a time for me to ask all the
-questions like i haven't been active on getter so you just talked on the call
-hey do you want to do an interview yeah so like one thing i've been meaning to
-ask you is like is it like because the the possibilities are probably like
-endless of tooling that you could do with with simply almost like trees and
-semantic db almost so like is there anything that you've ever like thought about
-in your head of like oh this would be a killer thing to make with skalameda uh
-that that just doesn't exist yet because either you don't have the time or you
-just don't know how you do it like what's like the untapped area that you could
-use galameta for it's always been code search for me so i'd say that the true if
+it's always been code search for me so i'd say that the true if
 you ask me like how did i get involved in tooling i i was doing this internship
 and um but i got to use the google's internal code search which is the most
 amazing developer tool i've ever used it still is and and like it was uh so i
