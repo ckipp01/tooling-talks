@@ -312,73 +312,99 @@ use Scalameta for?
 
 Olaf
 
+It's always been code search for me so I'd say that the true if you ask me like
+how did I get involved in tooling, I was doing this internship and I got to use
+the Google's internal code search which is the most amazing developer tool I've
+ever used. It still is and it was. So I approached Eugene and actually told him,
+"hey, I want to do a code search for Scala and how do I get like doc strings.
+And so that's what I'm working with right now.  And I'd say it's, I have one
+project in scalameta, metabrowse, but nobody uses it. I think that it was a
+really cool and it is a cool idea. It's used by almond, the Scala notebook and
+it's basically a static site generator that allows you to use the equivalent UI
+for VS Code to navigate online without having compiled anything. I feel like
+that this is something that should be included with Scala docs or something like
+that and so that's been untapped in my opinion. I'm hoping that some of the work
+on source graph is going to unlock that. We have some really exciting work in
+the pipeline to provide code navigation for published libraries on maven and we
+could do that for the entire ecosystem and you could do like find references on
+cat's IO Task or and then it would it would show you references in all of these,
+the whole ecosystem.
+
+Chris 
+
+So where would that, like you say that, and that's like crazy right because yeah
+we're working on it so like it's super exciting like maybe the question that
+then, the next question that comes to mind is where would you do that from
+right? Because that's that's a ton of, that's a ton of jars right? There's  so
+many jars so you need to have some type of central place right that they are you
+actually downloading those jars and then unpacking them and looking through or
+how does that work, talk a little bit more about like how that would actually
+work.
+
+Olaf
+
+Yeah for an online code search you end up having production servers. You need
+databases and it's a completely different world than the developer tool like
+local installation building a language server. It's a completely different game.
+You can use different, you have different trade-offs in terms of what, how your
+indexing, technologies you want to use because if it's read-only, but the
+sources you have been everyone published in Maven.  You can download the sources
+from maven, you've got the class paths you can type check the sources and so
+everything is there and it's actually I'd say indexing code is super slow when
+you have to like start sbt and it'll download a bunch of sbt plugins that have
+nothing to do with the actual source code you're trying to navigate and then
+bintry is down and you can't index the repo because bintray is down whereas, the
+sources that are published in maven they're always available they are
+ridiculously fast to download and they're super fast to type check as well. You
+don't even have to emit bytecode you can stop as soon as you've done a bit into
+the semanticdb so I feel like that's a huge untapped opportunity.
+
+Chris 
+
+A very skeptical question would be, well that's the same thing as text search on
+GitHub right? Like when I type whatever, just get a whole bunch of references.
+Obviously it's different because it's compiled code that you know, you know is
+legit, but there's similarities there right?
+
+Olaf
+
+there's similarities. I have an analogy that I'm using sometimes to explain like
+the difference and it's like imagine if you're cooking you're in a kitchen
+you've got a rack of spices but none of them have labels and you just kind of
+have to squint at like this looks red so I'm guessing it's paprika you know we
+put in some and then it's cayenne and it's like your dinner is super spicy.
+That's how it would be to like be on to do text search versus having the real
+deal IDE quality navigation.
+
+Chris
+
+When you talk about that type of search across a lot of different sources, and
+maybe this seems obvious to some people or to you even but what what is that
+most useful for then for like an average developer like you mentioned having IO
+and search for IO or something is it simply to like see how these things are
+being used?
+
+Olaf
+
+Yeah, I mean I now had to kind of, I was doing some Typescript. I was, or I'm
+writing some code and I'm, the thing I'm needing is like how do I find examples
+how to do this thing? How do I use this API? Like not from the actual docs, like
+I would love to just find all of the actual real world usages ideally sorted by
+you know promote the usages from popular repositories or high quality
+repositories that make sense.
+
+Chris
+
+Ok, so an average developer should care about it because they can learn so much
+better how to code, they will quickly find exactly the usages that they're
+looking for.
+
+Olaf
+
 *XXX*
 NOTE: if anyone wants to help improve this, please do, but ping me so we don't
 work on the same stuff. I will slowly continue down this as I get time.
 
-it's always been code search for me so i'd say that the true if
-you ask me like how did i get involved in tooling i i was doing this internship
-and um but i got to use the google's internal code search which is the most
-amazing developer tool i've ever used it still is and and like it was uh so i
-approached eugene i actually told him hey i want to do a concert for scala and
-how do i get like dog strings and one so that's what i'm working with right now
-okay and i'd say it's uh i have one project in scholarly meta browse but nobody
-uses it uh i think that was a really cool and it is a cool idea it's used by
-allman the scala notebook and and it's basically a static site generator that
-allows you to use the equivalent ui fps code to navigate online without having
-compiled anything okay and i feel like that this is something that should be
-included with scala docs or something like that and um so that's been untapped
-in my opinion okay and i'm hoping that some of the work on source graph is going
-to unlock that like we have some really exciting work in the pipeline to to
-provide code navigation for published libraries on maven and we could do that
-for the entire ecosystem and you could do like find references on cat's io task
-or and then it would it would show you references in all of these the whole
-ecosystem okay so like where would that like you say that that's like crazy
-right because like what yeah we're working on it so like it's super exciting
-like maybe the question that then like the next question that comes to mind is
-like where would you do that from right because like that's that's a ton of
-that's a ton of jars right like there's there's so many jars so like you need to
-have some type of central place right that like are you actually downloading
-those jars and then unpacking them and looking through or like like how does
-that like talk a little bit more about like how that would actually work because
-yeah for an online code search you end up having production servers you need
-databases and and it's a completely different world than the developer tool like
-local installation building a language server it's it's a completely different
-game uh you can use different like you have different trade-offs in terms of um
-what what uh how your what indexing technologies you want to use because if it's
-read-only so but yeah but the sources you have been everyone published in maven
-you can download the sources from maven you've got the class paths you can type
-check the sources and so everything is there and it's actually i'd say indexing
-code is super slow when you have to like start spt and it'll download a bunch of
-spd plugins that have nothing to do with the actual source code you're trying to
-navigate and then bin trace down and you can't index the repo because bintra is
-done whereas the sources that are published in maven they're always available
-they are ridiculously fast to download and they're super fast to type check as
-well yeah you don't even have to admit bytecode you can stop as soon as you've
-done a bit into the semantic to be so um i feel like that's a huge untapped
-opportunity um like a very skeptical question would be like well that's the same
-thing like text search on github right like when i when i type yeah whatever i
-just did a whole bunch of references like obviously it's different right because
-it's like compiled code that you know yeah you know is legit but like there's
-similarities there right there's the similarities i have an analogy that i'm
-using sometimes to explain like the difference and it's like imagine if you're
-cooking you're in a kitchen you've got a rack of spices but none of them have
-labels and you just kind of have to squint at like this looks red so i'm
-guessing it's paprika you know we put in some and then it's cayenne and it's
-like your dinner is super spicy that's how it would be to like be on to do text
-search versus having the real deal like ide quality navigation when you talk
-about like that type of search across a lot of different sources and maybe this
-seems obvious to some people or to you even but like what what what is that most
-useful for then for like an average developer like you mentioned like having io
-and search for io or something is it simply to like see how these things are
-being used or like yeah i mean i now i had to kind of i was doing some
-typescript i was i'm writing some goal and and i'm the thing i'm needing is like
-how do i find examples how to do this thing how do i use this api like not from
-the actual docs like i would love to just find all of the actual real world
-usages ideally sorted by you know promote the usages from um from popular
-repositories or high quality repositories that make sense um okay and so an
-average developer should care about it because they can learn so much better how
-to code they will quickly find exactly the the usages that they're looking for
 yeah um yeah i know or sometimes there's like three method overloads and like
 well nobody uses the other two because they're unsafe or something but that's
 easy to miss in your id even for new programmers i feel like this or like if
