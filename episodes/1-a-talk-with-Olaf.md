@@ -402,8 +402,10 @@ looking for.
 Olaf
 
 *XXX*
-NOTE: if anyone wants to help improve this, please do, but ping me so we don't
-work on the same stuff. I will slowly continue down this as I get time.
+NOTE: This ended up taking so much more time than I imagined. Below is where I
+left off since I just ripped these from YouTube. If someone ever has the desire
+to try and finish them, by all means. If not, I probably won't unless someone
+donates enough money for me to just pay someone to do this.
 
 yeah um yeah i know or sometimes there's like three method overloads and like
 well nobody uses the other two because they're unsafe or something but that's

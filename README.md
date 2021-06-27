@@ -6,15 +6,14 @@
 
 All talks will be streamed live at [twitch.tv/ckipp](https://www.twitch.tv/ckipp).
 
-- [A talk with Meriam Lachkar](./episodes/2-a-talk-with-Meriam.md) - Saturday,
-    June 26th - 7PM CEST / 10AM PDT
-- A talk with TBA - Saturday, July 24th - 7PM CEST / 10AM PDT
+- A talk with [Justin Kaeser](./episodes/3-a-talk-with-Justin.md) - Saturday, July 24th - 7PM CEST / 10AM PDT
 - A talk with TBA - Saturday, August 28th - 7PM CEST / 10AM PDT
 
 ## Past Guests
 
 - [A talk with Ólafur Páll Geirsson](./episodes/1-a-talk-with-Olaf.md) - May
     2021
+- [A talk with Meriam Lachkar](./episodes/2-a-talk-with-Meriam.md) - June 2021
 
 ## Impetus
 

@@ -8,7 +8,3 @@
 [@meriamLachkar](https://twitter.com/meriamLachkar) on Twitter
 
 [@mlachkar](https://github.com/mlachkar) on GitHub
-
-## Notes
-
-Soon...
