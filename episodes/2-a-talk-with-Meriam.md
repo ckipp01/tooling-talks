@@ -8,3 +8,5 @@
 [@meriamLachkar](https://twitter.com/meriamLachkar) on Twitter
 
 [@mlachkar](https://github.com/mlachkar) on GitHub
+
+[Tooling Talks Recording](https://youtu.be/VVKBoSryJFg)
