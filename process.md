@@ -14,27 +14,12 @@ Once contacted, if the interviewee agrees, the following steps will be taken:
 2. Leading up to the talk an avatar will be created of the interview similar to
    that of the one I use for
    [myself](https://avatars.githubusercontent.com/u/13974112?v=4). This is
-   mainly so that a nice unified OBS screen can be created and for content
-   leading up to the talk.
+   mainly so that a nice unified look can be applied for everything.
 
-3. The interview itself will be streamed [here on
-   Twitch](https://www.twitch.tv/ckipp) which will easily allow for anyone to
-   easily watch and comment. There will be moderators to ensure there is no
-   harassment or anything of that nature during the interview. The way this will
-   work is that we'll do a call together, and then I will stream both of us
-   embedded in an OBS scene. If need be we can practice this ahead of time if
-   there is any uncertainty.
+3. The interview itself will be conducted via
+   [squadcast](https://squadcast.fm/), which is (browser based) tool that ensure
+   your audio is first recorded locally and then stored rather than streamed to
+   a tool like Zoom and then captured.
 
-4. After the stream the full video will then be uploaded to YouTube for those
-   that may have missed the actual stream.
-
-## The format of the talk
-
-The format will be that of one similar to a podcast. The conversation will be
-quite informal, and also allow for some questions from those that are
-watching if they fit into the context of what is being spoken about. The
-questions won't be that surprising as they'll be mostly prepared ahead of time
-and approved by the individual being interviewed. A length to shoot for
-will be around the one hour mark however this may vary slightly depending on how
-the interview is going.
-
+4. After the stream the recordings will be edited and put up to be distributed
+   to all your favorite podcast platforms!
