@@ -8,3 +8,5 @@
 [@ebenwert](https://twitter.com/ebenwert) on Twitter
 
 [@jastice](https://github.com/jastice) on GitHub
+
+[Tooling Talks Recording](https://youtu.be/5ZebGDMpPgs)
