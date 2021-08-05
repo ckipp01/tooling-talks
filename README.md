@@ -4,8 +4,9 @@
 
 ## About
 
-Tooling talks is a series of talks about tooling in the Scala ecosystem. You can
-listen to Tooling Talks wherever you listen to your favorite podcasts!
+Tooling talks is a series of talks about developer tooling, primarily in the
+Scala ecosystem. You can listen to Tooling Talks wherever you listen to your
+favorite podcasts or on [tooling-talks.com](https://www.tooling-talks.com).
 
 If you have any questions you'd like to be asked to the next guest you can ask
 them [here under their
