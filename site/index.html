@@ -86,9 +86,14 @@
         line-height: 1.75rem;
       }
 
-      .player {
+      .max-and-center {
         max-width: 750px;
         margin: 5px auto;
+      }
+
+      .icon-container {
+        display: flex;
+        justify-content: center;
       }
 
       h1,h2,h3 {
@@ -101,41 +106,12 @@
         line-height: 2rem;
       }
 
-      h2 {
-        font-size: 1.3rem;
-        line-height: 2rem;
-      }
-
-      h3 {
-        font-size: 1.2rem;
-        line-height: 1.5rem;
-      }
-
-      p.date {
-        opacity: 0.5;
+      i {
         font-style: italic;
-        font-size: 0.75rem;
-        margin: 0;
-        line-height: 1rem;
-      }
-
-      a {
-        border-bottom-width: 2px;
-        border-bottom-style: dashed;
-        border-color: var(--dark-color);
-      }
-
-      a:hover, ::selection {
-        background: var(--dark-color);
-        color: var(--light-color);
       }
 
       header img {
         max-height: 150px;
-      }
-
-      p, ul {
-        margin-bottom: 15px;
       }
 
       footer {
@@ -144,18 +120,17 @@
         margin: 5px 0;
       }
 
-      footer img {
+      .icon-container img, footer img {
         padding: 10px;
         max-height: 20px;
         margin: 5px 0;
       }
 
-      footer a {
-        border-bottom: none;
+      .icon-container a, footer a {
         width: 40px;
       }
 
-      footer > a:hover {
+      .icon-container img:hover, footer > a:hover {
         background: inherit;
         color: inherit;
         transform: scale(1.2);
@@ -169,16 +144,37 @@
       <header>
         <img src="./images/bare-logo.png" alt="A picture of tools">
         <h1>Tooling Talks</h1>
-        <p>A series of talks about tooling</p>
+        <p><i>A series of talks about tooling</i></p>
+        <div class="max-and-center icon-container">
+          <a href="https://open.spotify.com/show/1OjXS5IBeP4Jku4Ue54wFA"><img src="./images/spotify.svg"></a>
+          <a href="https://podcasts.apple.com/us/podcast/tooling-talks/id1580009576"><img src="./images/apple-podcast.svg"></a>
+          <a href="https://www.deezer.com/show/2874482"><img src="./images/deezer-logo.svg"></a>
+        </div>
       </header>
       <main>
-        <div id="buzzsprout-player-8988975" class="player"></div>
+        <!-- Justin -->
+        <div id="buzzsprout-player-8988975" class="max-and-center"></div>
         <script src="https://www.buzzsprout.com/1830936/8988975-episode-3-a-talk-with-justin-kaeser.js?container_id=buzzsprout-player-8988975&player=small" type="text/javascript" charset="utf-8"></script>
-        <div id="buzzsprout-player-8980742" class="player"></div>
+        <div class="max-and-center icon-container">
+          <a href="https://github.com/jastice"><img src="./images/github.svg"></a>
+          <a href="https://twitter.com/ebenwert"><img src="./images/twitter.svg"></a>
+        </div>
+        <!-- Meriam -->
+        <div id="buzzsprout-player-8980742" class="max-and-center"></div>
         <script src="https://www.buzzsprout.com/1830936/8980742-episode-2-a-talk-with-meriam-lachkar.js?container_id=buzzsprout-player-8980742&player=small" type="text/javascript" charset="utf-8"></script>
-        <div id="buzzsprout-player-8978928" class="player"></div>
+        <div class="max-and-center icon-container">
+          <a href="https://github.com/mlachkar"><img src="./images/github.svg"></a>
+          <a href="https://twitter.com/meriamLachkar"><img src="./images/twitter.svg"></a>
+        </div>
+        <!-- Olaf -->
+        <div id="buzzsprout-player-8978928" class="max-and-center"></div>
         <script src="https://www.buzzsprout.com/1830936/8978928-episode-1-a-talk-with-olafur-pall-geirsson.js?container_id=buzzsprout-player-8978928&player=small" type="text/javascript" charset="utf-8"></script>
-        <div id="buzzsprout-player-8978912" class="player"></div>
+        <div class="max-and-center icon-container">
+          <a href="https://github.com/olafurpg"><img src="./images/github.svg"></a>
+          <a href="https://twitter.com/olafurpg"><img src="./images/twitter.svg"></a>
+          <a href="https://geirsson.com/"><img src="./images/globe.svg"></a>
+        </div>
+        <div id="buzzsprout-player-8978912" class="max-and-center"></div>
         <script src="https://www.buzzsprout.com/1830936/8978912-welcome-to-tooling-talks.js?container_id=buzzsprout-player-8978912&player=small" type="text/javascript" charset="utf-8"></script>
       </main>
     <footer>

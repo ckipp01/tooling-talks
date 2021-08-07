@@ -19,10 +19,10 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Past Guests
 
-- [A talk with Ólafur Páll Geirsson](./episodes/1-a-talk-with-Olaf.md) - May
+- [A talk with Ólafur Páll Geirsson](https://www.tooling-talks.com) - May
     2021
-- [A talk with Meriam Lachkar](./episodes/2-a-talk-with-Meriam.md) - June 2021
-- [A talk with Justin Kaeser](./episodes/3-a-talk-with-Justin.md) - July 2021
+- [A talk with Meriam Lachkar](https://www.tooling-talks.com) - June 2021
+- [A talk with Justin Kaeser](https://www.tooling-talks.com) - July 2021
 
 ## Impetus
 
