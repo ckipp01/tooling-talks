@@ -5,17 +5,16 @@
 ## About
 
 Tooling talks is a series of talks about developer tooling, primarily in the
-Scala ecosystem. You can listen to Tooling Talks wherever you listen to your
-favorite podcasts or on [tooling-talks.com](https://www.tooling-talks.com).
+Scala ecosystem. Visit [tooling-talks.com](https://www.tooling-talks.com) for
+links to your favorite podcast service, or just listen on the site.
 
 If you have any questions you'd like to be asked to the next guest you can ask
 them [here under their
 announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
-## Schedule
+## Next Guest
 
-- [A talk with Eugene Yokota](https://github.com/ckipp01/tooling-talks/discussions/4) - August 2021
-- A talk with TBA - September 2021
+- [A talk with Eugene Yokota](https://github.com/ckipp01/tooling-talks/discussions/4)
 
 ## Past Guests
 
