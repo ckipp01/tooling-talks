@@ -14,14 +14,15 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- [A talk with Eugene Yokota](https://github.com/ckipp01/tooling-talks/discussions/4)
+- TBA This week!
 
 ## Past Guests
 
-- [A talk with Ólafur Páll Geirsson](https://www.tooling-talks.com) - May
+- [Ólafur Páll Geirsson: The Scalameta World](https://www.tooling-talks.com) - May
     2021
-- [A talk with Meriam Lachkar](https://www.tooling-talks.com) - June 2021
-- [A talk with Justin Kaeser](https://www.tooling-talks.com) - July 2021
+- [Meriam Lachkar: Scala 3 Migration Tooling](https://www.tooling-talks.com) - June 2021
+- [Justin Kaeser: The Build Server Protocol and IntelliJ](https://www.tooling-talks.com) - July 2021
+- [Eugene Yokota: Coding with Friends and sbt](https://www.tooling-talks.com) - September 2021
 
 ## Impetus
 
