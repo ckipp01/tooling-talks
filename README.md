@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/SZu4xQ7.jpg"/>
+  <img src="https://i.imgur.com/dpzU1Fk.jpg"/>
 </p>
 
 ## About
@@ -14,7 +14,7 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- TBA This week!
+- [Guillaume Martres](https://github.com/ckipp01/tooling-talks/discussions/5)
 
 ## Past Guests
 
