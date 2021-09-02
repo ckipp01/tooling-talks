@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://i.imgur.com/R0v2dTk.jpg"/>
-</p>
+# [Tooling Talks](https://www.tooling-talks.com/)
 
 ## About
 
