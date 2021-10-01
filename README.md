@@ -12,15 +12,15 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- [Guillaume Martres](https://github.com/ckipp01/tooling-talks/discussions/5)
+- To be announced soon!
 
 ## Past Guests
 
-- [Ólafur Páll Geirsson: The Scalameta World](https://www.tooling-talks.com) - May
-    2021
-- [Meriam Lachkar: Scala 3 Migration Tooling](https://www.tooling-talks.com) - June 2021
-- [Justin Kaeser: The Build Server Protocol and IntelliJ](https://www.tooling-talks.com) - July 2021
+- [Guillaume Martres: An Interactive Compiler](https://www.tooling-talks.com) - October 2021
 - [Eugene Yokota: Coding with Friends and sbt](https://www.tooling-talks.com) - September 2021
+- [Justin Kaeser: The Build Server Protocol and IntelliJ](https://www.tooling-talks.com) - July 2021
+- [Meriam Lachkar: Scala 3 Migration Tooling](https://www.tooling-talks.com) - June 2021
+- [Ólafur Páll Geirsson: The Scalameta World](https://www.tooling-talks.com) - May 2021
 
 ## Impetus
 
