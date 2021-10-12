@@ -12,7 +12,7 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- To be announced soon!
+- [A talk with Rebecca Mark](https://github.com/ckipp01/tooling-talks/discussions/7)
 
 ## Past Guests
 
