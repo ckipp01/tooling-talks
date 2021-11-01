@@ -16,6 +16,7 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Past Guests
 
+- [Rebecca Mark: Unison - A New Approach](https://www.tooling-talks.com) - November 2021
 - [Guillaume Martres: An Interactive Compiler](https://www.tooling-talks.com) - October 2021
 - [Eugene Yokota: Coding with Friends and sbt](https://www.tooling-talks.com) - September 2021
 - [Justin Kaeser: The Build Server Protocol and IntelliJ](https://www.tooling-talks.com) - July 2021
