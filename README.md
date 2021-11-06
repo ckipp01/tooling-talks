@@ -12,7 +12,7 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- TBA
+- [A Talk with Alex Archambault](https://github.com/ckipp01/tooling-talks/discussions/9)
 
 ## Past Guests
 
