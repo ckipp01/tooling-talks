@@ -1,0 +1,141 @@
+[[episodes]]
+  title = "Welcome to Tooling Talks"
+  player = """<div id="buzzsprout-player-8978912"></div><script src="https://www.buzzsprout.com/1830936/8978912-welcome-to-tooling-talks.js?container_id=buzzsprout-player-8978912&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image = "images/logo.jpg"
+  season = 1
+  number = 0
+  notes = """I'm incredibly excited to be starting this journey with you on
+  Tooling Talks. Every month I'll be having a conversation with someone working
+  in Tooling. We'll dive into tools, talking about the future of tooling, and
+  hopefully provide some insight into how to get started in tooling if you new.
+  Thanks for joining along."""
+
+[[episodes]]
+  guest = "Ólafur Páll Geirsson"
+  title = "The Scalameta World"
+  player = """<div id="buzzsprout-player-8978928"></div><script src="https://www.buzzsprout.com/1830936/8978928-olafur-pall-geirsson-the-scalameta-world.js?container_id=buzzsprout-player-8978928&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image =  "images/olafur-pall-geirson.png"
+  twitter = "https://twitter.com/olafurpg"
+  github = "https://github.com/olafurpg"
+  website = "https://geirsson.com/"
+  season = 1
+  number = 1
+  notes = """It's incredibly fitting that my first guest for tooling talks is
+  Olaf. Just about two year ago I sent an email to Olaf, introduced myself,
+  told him I loved Metals and that I wanted to help. This ultimately lead to my
+  affinity with Developer tooling and also my entryway into that world. You may
+  know Olaf from the impressive amount of tools that's he's either authored or
+  worked on. I'm sure you probably use some of them. Metals, the Scala Language
+  server, Scalafmt, the defacto formatter for Scala, Scalafix, mdoc, munit, and
+  Scalameta. Olaf's fingerprints are all over the standard Scala toolchain.
+  Apart the incredible amount of work in open source he's done over the years
+  at the Scala Center, Twitter, and now Sourcegraph, he's also a kind and
+  helpful individual that's full of insight. It's an absolute pleasure for me
+  to have him as my first guest."""
+
+[[episodes]]
+  guest = "Meriam Lachkar"
+  title = "Scala 3 Migration Tooling"
+  player = """<div id="buzzsprout-player-8980742"></div><script src="https://www.buzzsprout.com/1830936/8980742-meriam-lachkar-scala-3-migration-tooling.js?container_id=buzzsprout-player-8980742&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image = "images/meriam-lachkar.png"
+  twitter = "https://twitter.com/meriamLachkar"
+  github = "https://github.com/mlachkar"
+  season = 1
+  number = 2
+  notes = """A question I'm sure many Scala developers and companies are asking
+  themselves this year is "how can we migrate our applications to Scala 3?". A
+  fantastic tool to help with this is Scala3-migrate, which will help with
+  migrating your scalacOptions, ensuring your dependencies are published for
+  Scala 3, and even helping to automatically re-write parts of your code. In
+  this interview I chat with Meriam and her work on Scala3-migrate, the
+  challenges you might encounter as you're migrating your code, and about some
+  of the things developers may not think about as they set out to update to
+  Scala 3. We'll also dive into her work on Scalafix which unlocked the first
+  Scalafix integration in Metals, the Scala Language Sever, as well as helped
+  with rewrites for Scala3. We had a great conversation, and super thankful she
+  took the time to chat about the works she's been doing, getting into tooling,
+  and other untapped areas in the ecosystem."""
+
+[[episodes]]
+  guest = "Justin Kaeser"
+  title = "The Build Server Protocol and IntelliJ"
+  player = """<div id="buzzsprout-player-8988975"></div><script src="https://www.buzzsprout.com/1830936/8988975-justin-kaeser-the-build-server-protocol-and-intellij.js?container_id=buzzsprout-player-8988975&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image = "images/justin-kaeser.png"
+  twitter = "https://twitter.com/ebenwert"
+  github = "https://github.com/jastice"
+  season = 1
+  number = 3
+  notes = """If you're a Scala developer there is almost no doubt you use
+  either IntelliJ or Metals with your editor of choice. Whether you're using
+  IntelliJ, or Metals which utilizes BSP, or maybe even IntelliJ with BSP,
+  you're using some of the handy work of Justin. This month Justin and I sit
+  and chat all about IntelliJ and Scala, the Build Server Protocol, and what
+  some of the future of programming could look like in Scala.  I'm pretty
+  fascinated with this topic lately and looking at the current limitations we
+  have in the Scala tooling ecosystem, and thinking about how they could be
+  challenged. I'm grateful that Justin took the time and chat and also grateful
+  for all the work he's put into making integrations in Scala tooling
+  seamless."""
+
+[[episodes]]
+  guest = "Eugene Yokota"
+  title = "Coding with Friends and sbt"
+  player = """<div id="buzzsprout-player-9121071"></div><script src="https://www.buzzsprout.com/1830936/9121071-eugene-yokota-coding-with-friends-and-sbt.js?container_id=buzzsprout-player-9121071&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image = "images/eugene-yokota.png"
+  twitter = "https://twitter.com/eed3si9n"
+  github = "https://github.com/eed3si9n"
+  website = "https://eed3si9n.com/"
+  season = 1
+  number = 4
+  notes = """This month I had the pleasure to sit down with Euguene Yokota and
+  talk about some fascinating topics that range from coding on the weekend with
+  friends, to being a maintainer of one of the most widely used tools in the
+  Scala ecosystem, to the importance of diversity and inclusion in order for
+  Scala not only to grow, but to maintain the numbers it has. You may know
+  Eugene from being the maintainer of sbt, the tremendous amount of work he's
+  put into Scala build tooling, his blog that has a great mix of music, food,
+  and technology posts, or from his herding cats series. After years at
+  Lightbend Eugene is now a developer at Twitter working full time on
+  Engineering Effectiveness via build tools like Bazel. It was an absolute
+  pleasure to welcome him to the show."""
+
+[[episodes]]
+  guest = "Guillaume Martres"
+  title = "An Interactive Compiler"
+  player = """<div id="buzzsprout-player-9288213"></div><script src="https://www.buzzsprout.com/1830936/9288213-guillaume-martres-an-interactive-compiler.js?container_id=buzzsprout-player-9288213&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image = "images/guillaume-martres.png"
+  github = "https://github.com/smarter"
+  website = "http://guillaume.martres.me/"
+  season = 1
+  number = 5
+  notes = """Welcome to tooling talks, where every month I sit down with
+  someone working in tooling, learn how they got there, and gain some insight
+  into the work they do. This month I had the privilege to sit down with
+  Guillaume Martres, one of the core contributors on the Dotty team from EPFL
+  and chat all about the Scala 3 compiler and what it means to have
+  interactivity in mind when working on a compiler in regards to tooling. We
+  talked about the importance of upstreaming changes, de-duplicating efforts,
+  and also a bit about what the future of tooling could look like in Scala
+  thanks to things like TASTy. It was a pleasure chatting with Guillaume, so I
+  hope you enjoy the show."""
+
+[[episodes]]
+  guest = "Rebecca Mark"
+  title = "Unison - A New Approach"
+  player = """<div id="buzzsprout-player-9460243"></div><script src="https://www.buzzsprout.com/1830936/9460243-rebecca-mark-unison-a-new-approach.js?container_id=buzzsprout-player-9460243&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image = "images/rebecca-mark.png"
+  twitter = "https://twitter.com/r_l_mark"
+  github = "https://github.com/rlmark"
+  season = 1
+  number = 6
+  notes = """If you've been listening to the show for a while you'll have heard
+  the name Unison pop up a few times. Unison aims to reimagine how many aspects
+  of programming languages work, which can also radically challenge the status
+  quo of developer tooling. This month it was joy to sit down with Rebecca Mark
+  and talk all about how approaching development through unison is a totally
+  new experience. Everything from tracking changes in your code, how your code
+  is stored, and how you write your code is new. She has some great insight
+  into what the future of developer tooling could look like using Unison. We
+  also had an opportunity to speak a bit about the advantages of an early focus
+  on community, diversity, and education in a language community, like Unison.
+  Thanks for joining, let's dive in."""

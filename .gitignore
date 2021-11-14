@@ -1,0 +1,6 @@
+.metals/
+.bloop/
+.scala/
+out/
+site-out/
+.bsp/
