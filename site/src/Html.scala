@@ -11,7 +11,7 @@ object Html {
       div(
         Style.episodeContainer,
         Style.scaleOnHover,
-        img(Style.episode, src := episode.image.getCanonicalPath()),
+        img(Style.episode, src := s"images/${episode.image.getName()}"),
         createEpisodeTitle(episode)
       )
     )
