@@ -24,7 +24,7 @@ object Html {
       headFrag(
         "Tooling Talks",
         "Tooling Talks podcast - A series of talks about developer tooling.",
-        s"http://www.tooling-talks.com/images/logo.jpg"
+        s"http://www.tooling-talks.com/images/logo-thumbnail.jpg"
       ),
       body(
         div(
@@ -48,7 +48,7 @@ object Html {
         s"Tooling Talks episode ${episode.number} -  ${episode.guest
           .map(_ + ": ")
           .getOrElse("")}${episode.title}",
-        s"https://www.tooling-talks.com/${episode.image}"
+        s"https://www.tooling-talks.com/images/${episode.thumbnail.getName()}"
       ),
       body(
         div(

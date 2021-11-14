@@ -2,6 +2,7 @@
   title = "Welcome to Tooling Talks"
   player = """<div id="buzzsprout-player-8978912"></div><script src="https://www.buzzsprout.com/1830936/8978912-welcome-to-tooling-talks.js?container_id=buzzsprout-player-8978912&player=small" type="text/javascript" charset="utf-8"></script>"""
   image = "images/logo.jpg"
+  thumbnail = "images/logo-thumbnail.jpg"
   season = 1
   number = 0
   notes = """I'm incredibly excited to be starting this journey with you on
@@ -15,6 +16,7 @@
   title = "The Scalameta World"
   player = """<div id="buzzsprout-player-8978928"></div><script src="https://www.buzzsprout.com/1830936/8978928-olafur-pall-geirsson-the-scalameta-world.js?container_id=buzzsprout-player-8978928&player=small" type="text/javascript" charset="utf-8"></script>"""
   image =  "images/olafur-pall-geirson.png"
+  thumbnail = "images/olafur-pall-geirson-thumbnail.png"
   twitter = "https://twitter.com/olafurpg"
   github = "https://github.com/olafurpg"
   website = "https://geirsson.com/"
@@ -38,6 +40,7 @@
   title = "Scala 3 Migration Tooling"
   player = """<div id="buzzsprout-player-8980742"></div><script src="https://www.buzzsprout.com/1830936/8980742-meriam-lachkar-scala-3-migration-tooling.js?container_id=buzzsprout-player-8980742&player=small" type="text/javascript" charset="utf-8"></script>"""
   image = "images/meriam-lachkar.png"
+  thumbnail = "images/meriam-lachkar-thumbnail.png"
   twitter = "https://twitter.com/meriamLachkar"
   github = "https://github.com/mlachkar"
   season = 1
@@ -61,6 +64,7 @@
   title = "The Build Server Protocol and IntelliJ"
   player = """<div id="buzzsprout-player-8988975"></div><script src="https://www.buzzsprout.com/1830936/8988975-justin-kaeser-the-build-server-protocol-and-intellij.js?container_id=buzzsprout-player-8988975&player=small" type="text/javascript" charset="utf-8"></script>"""
   image = "images/justin-kaeser.png"
+  thumbnail = "images/justin-kaeser-thumbnail.png"
   twitter = "https://twitter.com/ebenwert"
   github = "https://github.com/jastice"
   season = 1
@@ -82,6 +86,7 @@
   title = "Coding with Friends and sbt"
   player = """<div id="buzzsprout-player-9121071"></div><script src="https://www.buzzsprout.com/1830936/9121071-eugene-yokota-coding-with-friends-and-sbt.js?container_id=buzzsprout-player-9121071&player=small" type="text/javascript" charset="utf-8"></script>"""
   image = "images/eugene-yokota.png"
+  thumbnail= "images/eugene-yokota-thumbnail.png"
   twitter = "https://twitter.com/eed3si9n"
   github = "https://github.com/eed3si9n"
   website = "https://eed3si9n.com/"
@@ -104,6 +109,7 @@
   title = "An Interactive Compiler"
   player = """<div id="buzzsprout-player-9288213"></div><script src="https://www.buzzsprout.com/1830936/9288213-guillaume-martres-an-interactive-compiler.js?container_id=buzzsprout-player-9288213&player=small" type="text/javascript" charset="utf-8"></script>"""
   image = "images/guillaume-martres.png"
+  thumbnail = "images/guillaume-martres-thumbnail.png"
   github = "https://github.com/smarter"
   website = "http://guillaume.martres.me/"
   season = 1
@@ -124,6 +130,7 @@
   title = "Unison - A New Approach"
   player = """<div id="buzzsprout-player-9460243"></div><script src="https://www.buzzsprout.com/1830936/9460243-rebecca-mark-unison-a-new-approach.js?container_id=buzzsprout-player-9460243&player=small" type="text/javascript" charset="utf-8"></script>"""
   image = "images/rebecca-mark.png"
+  thumbnail = "images/rebecca-mark-thumbnail.png"
   twitter = "https://twitter.com/r_l_mark"
   github = "https://github.com/rlmark"
   season = 1

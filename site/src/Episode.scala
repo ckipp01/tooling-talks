@@ -9,6 +9,7 @@ case class Episode(
     guest: Option[String],
     title: String,
     image: File,
+    thumbnail: File,
     player: String,
     twitter: Option[String],
     github: Option[String],
