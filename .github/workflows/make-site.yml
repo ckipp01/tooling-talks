@@ -20,5 +20,8 @@ jobs:
           distribution: 'temurin'
           java-version: '11'
 
+      - name: Check formatting
+        run: ./mill site.checkFormat
+
       - name: Make sure it can build
         run: ./mill site.run

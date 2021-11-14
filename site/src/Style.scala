@@ -33,7 +33,7 @@ object Style extends CascadingStyleSheet {
     ),
     h1(
       fontWeight.bold,
-      fontSize := "1.5rem",
+      fontSize := "1.5rem"
     ),
     h2(
       fontWeight.bold,
@@ -49,8 +49,8 @@ object Style extends CascadingStyleSheet {
       padding := "1rem",
       flexGrow := 1,
       lineHeight := "1.75rem",
-    maxWidth := 750,
-    margin := "1rem auto"
+      maxWidth := 750,
+      margin := "0 auto"
     ),
     i(fontStyle.italic),
     footer(
