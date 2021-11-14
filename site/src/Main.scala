@@ -76,7 +76,7 @@ object Main extends App {
         )
       }
 
-      scribe.info("copying over the vercel file")
+      scribe.info("copying over your vercel file")
       Files.copy(
         new File("vercel.json").toPath(),
         new File("site-out/vercel.json").toPath()
