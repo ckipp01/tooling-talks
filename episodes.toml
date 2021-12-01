@@ -146,3 +146,27 @@
   also had an opportunity to speak a bit about the advantages of an early focus
   on community, diversity, and education in a language community, like Unison.
   Thanks for joining, let's dive in."""
+
+[[episodes]]
+  guest = "Alex Archambault"
+  title = "Coursier and scala-cli - Changing the Way You Start Scala"
+  player = """<div id="buzzsprout-player-9623266"></div><script src="https://www.buzzsprout.com/1830936/9623266-alex-archambault-coursier-and-scala-cli-changing-the-way-you-start-scala.js?container_id=buzzsprout-player-9623266&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image = "images/alex-archambault.png"
+  thumbnail = "images/alex-archambault-thumbnail.jpg"
+  twitter = "https://twitter.com/alxarchambault"
+  github = "https://github.com/alexarchambault"
+  website = "https://alexarchambault.github.io/"
+  season = 1
+  number = 7
+  notes = """I'm excited to share another interview with you this month.
+  Whether or not you're familiar with it, if you're a Scala developer more than
+  likely somewhere in your tool chain you're using Coursier. It's almost a no
+  brainer that in the Scala ecosystem if you need to resolve some dependencies,
+  quickly install a scala program, or quickly see the dependency tree of an
+  artifact, it's the tool to use. That's why I'm so excited to sit with Alex
+  Archambault this month and chat about all the tooling he's worked on from
+  Coursier, Ammonite, Almond, and most recently scala-cli. Alex has had a
+  tremendous impact on how all Scala developers get started with Scala, and has
+  written arguably some of the most widely used tools in the Scala ecosystem,
+  even if you're unaware you're relying on them. Without further ado, let's
+  dive in. Thanks for joining."""

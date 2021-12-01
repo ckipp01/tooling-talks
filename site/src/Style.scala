@@ -49,7 +49,7 @@ object Style extends CascadingStyleSheet {
       padding := "1rem",
       flexGrow := 1,
       lineHeight := "1.75rem",
-      maxWidth := 750,
+      maxWidth := 800,
       margin := "0 auto"
     ),
     i(fontStyle.italic),

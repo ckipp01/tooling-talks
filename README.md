@@ -12,10 +12,11 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- [A Talk with Alex Archambault](https://github.com/ckipp01/tooling-talks/discussions/9)
+- TBA Soon!
 
 ## Past Guests
 
+- [Alex Archambault: Coursier and scala-cli - Changing the Way You Start Scala](https://www.tooling-talks.com) - December 2021
 - [Rebecca Mark: Unison - A New Approach](https://www.tooling-talks.com) - November 2021
 - [Guillaume Martres: An Interactive Compiler](https://www.tooling-talks.com) - October 2021
 - [Eugene Yokota: Coding with Friends and sbt](https://www.tooling-talks.com) - September 2021
