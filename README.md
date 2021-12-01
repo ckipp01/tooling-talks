@@ -16,13 +16,13 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Past Guests
 
-- [Alex Archambault: Coursier and scala-cli - Changing the Way You Start Scala](https://www.tooling-talks.com) - December 2021
-- [Rebecca Mark: Unison - A New Approach](https://www.tooling-talks.com) - November 2021
-- [Guillaume Martres: An Interactive Compiler](https://www.tooling-talks.com) - October 2021
-- [Eugene Yokota: Coding with Friends and sbt](https://www.tooling-talks.com) - September 2021
-- [Justin Kaeser: The Build Server Protocol and IntelliJ](https://www.tooling-talks.com) - July 2021
-- [Meriam Lachkar: Scala 3 Migration Tooling](https://www.tooling-talks.com) - June 2021
-- [Ólafur Páll Geirsson: The Scalameta World](https://www.tooling-talks.com) - May 2021
+- [Alex Archambault: Coursier and scala-cli - Changing the Way You Start Scala](https://www.tooling-talks.com/episode-7) - December 2021
+- [Rebecca Mark: Unison - A New Approach](https://www.tooling-talks.com/episode-6) - November 2021
+- [Guillaume Martres: An Interactive Compiler](https://www.tooling-talks.com/episode-5) - October 2021
+- [Eugene Yokota: Coding with Friends and sbt](https://www.tooling-talks.com/episode-4) - September 2021
+- [Justin Kaeser: The Build Server Protocol and IntelliJ](https://www.tooling-talks.com/episode-3) - July 2021
+- [Meriam Lachkar: Scala 3 Migration Tooling](https://www.tooling-talks.com/episode-2) - June 2021
+- [Ólafur Páll Geirsson: The Scalameta World](https://www.tooling-talks.com/episode-1) - May 2021
 
 ## Impetus
 
