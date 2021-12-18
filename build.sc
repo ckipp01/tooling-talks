@@ -8,6 +8,6 @@ object site extends ScalaModule with ScalafmtModule {
   def ivyDeps = Agg(
     ivy"com.lihaoyi::scalatags:0.11.0",
     ivy"tech.sparse::toml-scala:0.2.2",
-    ivy"com.outr::scribe:3.6.3"
+    ivy"com.outr::scribe:3.6.4"
   )
 }
