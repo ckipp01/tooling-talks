@@ -103,10 +103,7 @@ object Style extends CascadingStyleSheet {
     alignItems.center,
     maxWidth := 250,
     h1(textAlign.center),
-    p(textAlign.center),
-    i(
-      fontSize := "0.8rem"
-    )
+    p(textAlign.center)
   )
 
   def episodesContainer = cls(
