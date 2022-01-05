@@ -12,7 +12,7 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- TBA Soon!
+- [Tomasz Godzik](https://github.com/ckipp01/tooling-talks/discussions/16)
 
 ## Past Guests
 
