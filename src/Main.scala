@@ -1,4 +1,9 @@
-package site
+// using scala 2.13.7
+// using lib com.lihaoyi::scalatags:0.11.0
+// using lib tech.sparse::toml-scala:0.2.2
+// using lib com.outr::scribe:3.6.4
+// using option -Wunused
+// using resourceDir "./resources"
 
 import scalatags.Text.all._
 import scala.io.Source
@@ -12,7 +17,7 @@ object Main extends App {
 
   scribe.info("Slurping up your episodes file")
 
-  val rawEpisodes = Source.fromFile("episodes.toml").mkString
+  val rawEpisodes = Source.fromResource("episodes.toml").mkString
 
   val parsed = toml.Toml.parseAs[EpisodeList](rawEpisodes)
 
@@ -40,7 +45,7 @@ object Main extends App {
             .render
         )
 
-      Files.createDirectories(new File("site-out", "images").toPath())
+      Files.createDirectories(new File("out", "images").toPath())
 
       def cleanup(file: File): Unit = {
         file.listFiles().foreach { file =>
@@ -58,28 +63,28 @@ object Main extends App {
         }
       }
 
-      cleanup(new File("site-out"))
+      cleanup(new File("out"))
 
       (homepage :: episodePages).foreach { page =>
         scribe.info(s"Writing ${page.fileName}")
-        val out = new File(s"./site-out/${page.fileName}")
+        val out = new File(s"./out/${page.fileName}")
         val pw = new PrintWriter(out)
         pw.write(page.content)
         pw.close()
       }
 
       new File("images").listFiles().foreach { image =>
-        scribe.info(s"copying over ${image.getName()} to site-out/images")
+        scribe.info(s"copying over ${image.getName()} to out/images")
         Files.copy(
           image.toPath(),
-          new File(s"site-out/images/${image.getName()}").toPath()
+          new File(s"out/images/${image.getName()}").toPath()
         )
       }
 
       scribe.info("copying over your vercel file")
       Files.copy(
         new File("vercel.json").toPath(),
-        new File("site-out/vercel.json").toPath()
+        new File("out/vercel.json").toPath()
       )
 
       scribe.info("Site is built!")

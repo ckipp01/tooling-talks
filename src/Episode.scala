@@ -1,5 +1,3 @@
-package site
-
 import scalatags.Text.all._
 import java.io.File
 import toml.Codec

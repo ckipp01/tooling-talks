@@ -1,5 +1,3 @@
-package site
-
 import scalatags.stylesheet._
 import scalatags.Text.all._
 import scalatags.Text.styles2
