@@ -15,7 +15,6 @@ jobs:
       - uses: coursier/cache-action@v6
       - uses: coursier/setup-action@v1
         with:
-          jvm: adoptium:17
           apps: scala-cli
 
       - name: Make sure it can build
