@@ -18,4 +18,4 @@ jobs:
           apps: scala-cli
 
       - name: Make sure it can build
-        run: scala-cli run src/
+        run: scala-cli --cli-version 0.0.9 run src/
