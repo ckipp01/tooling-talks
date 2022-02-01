@@ -170,3 +170,27 @@
   written arguably some of the most widely used tools in the Scala ecosystem,
   even if you're unaware you're relying on them. Without further ado, let's
   dive in. Thanks for joining."""
+
+[[episodes]]
+  guest = "Tomasz Godzik"
+  title = "The Scalameta Firefighter"
+  player = """<div id="buzzsprout-player-9977573"></div><script src="https://www.buzzsprout.com/1830936/9977573-tomasz-godzik-the-scalameta-firefighter.js?container_id=buzzsprout-player-9977573&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image = "images/tomasz-godzik.png"
+  thumbnail = "images/tomasz-godzik-thumbnail.jpg"
+  twitter = "https://twitter.com/TomekGodzik"
+  github = "https://github.com/tgodzik"
+  season = 1
+  number = 8
+  notes = """Welcome to a new year of Tooling Talks. I'm your host Chris and
+  I'm excited to welcome you back to a new year of exciting interviews all
+  about Tooling in the Scala Ecosystem. I've got some great guests lined up for
+  this year, some great topics in the works, and maybe even some projects
+  relating to Scala tooling that I'm excited to share with you. Our first guest
+  of 2022 is one that I've worked with in open source for a couple years now.
+  He's currently leading the charge of developing Metals and many of the other
+  libraries and tooling that Metals relies on. Most of you out there listening
+  are probably relying on something he's actively maintaining in the Scalameta
+  ecosystem. We had a great conversation about getting involved in tooling,
+  playing the role of a firefighter, and about some interesting new features in
+  Metals. Without further ado, let's dive in and learn from Tomasz. Thanks for
+  joining."""
