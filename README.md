@@ -12,10 +12,11 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- [Tomasz Godzik](https://github.com/ckipp01/tooling-talks/discussions/16)
+- TBA Soon!
 
 ## Past Guests
 
+- [Tomasz Godzik](https://www.tooling-talks.com/episode-8)
 - [Alex Archambault: Coursier and scala-cli - Changing the Way You Start Scala](https://www.tooling-talks.com/episode-7) - December 2021
 - [Rebecca Mark: Unison - A New Approach](https://www.tooling-talks.com/episode-6) - November 2021
 - [Guillaume Martres: An Interactive Compiler](https://www.tooling-talks.com/episode-5) - October 2021
