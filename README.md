@@ -10,7 +10,9 @@ If you have any questions you'd like to be asked to the next guest you can ask
 them [here under their
 announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
-## [Gabriel Volpe](https://github.com/ckipp01/tooling-talks/discussions/23)
+## Next Guest
+
+- [Gabriel Volpe](https://github.com/ckipp01/tooling-talks/discussions/23)
 
 - TBA Soon!
 
