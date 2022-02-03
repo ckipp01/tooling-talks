@@ -14,8 +14,6 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 - [Gabriel Volpe](https://github.com/ckipp01/tooling-talks/discussions/23)
 
-- TBA Soon!
-
 ## Past Guests
 
 - [Tomasz Godzik: The Scalameta Firefighter](https://www.tooling-talks.com/episode-8) - February 2022
