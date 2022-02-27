@@ -194,3 +194,24 @@
   playing the role of a firefighter, and about some interesting new features in
   Metals. Without further ado, let's dive in and learn from Tomasz. Thanks for
   joining."""
+
+[[episodes]]
+  guest = "Gabriel Volpe"
+  title = "A look at Nix and Scala"
+  player = """<div id="buzzsprout-player-10150503"></div><script src="https://www.buzzsprout.com/1830936/10150503-gabriel-volpe-a-look-at-nix-and-scala.js?container_id=buzzsprout-player-10150503&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image = "images/gabriel-volpe.png"
+  thumbnail = "images/gabriel-volpe-thumbnail.png"
+  twitter = "https://twitter.com/volpegabriel87"
+  github = "https://github.com/gvolpe"
+  website = "https://gvolpe.com/"
+  season = 1
+  number = 9
+  notes = """Welcome back to another episode of Tooling Talks. I'm your host
+  Chris and this month I'm excited to sit down with another Neovimmer, Gabriel
+  Volpe. You may know him from his books "Practical FP in Scala" or "Functional
+  Event-Driven Architecture", his work maintaining multiple open source
+  libraries, or maybe some of his talks online.  We talked all about editor
+  choice, using Nix, and even a bit about the Scala Open Source community. I
+  really enjoyed chatting with Gabriel and I'm exciting to see the future of
+  what Nix and Scala together could look like. Without further ado, let's dive
+  in. Thanks for joining."""

@@ -12,10 +12,11 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- [Gabriel Volpe](https://github.com/ckipp01/tooling-talks/discussions/23)
+- TBA Soon!
 
 ## Past Guests
 
+- [Gabriel Volpe: A look at Nix and Scala](https://www.tooling-talks.com/episode-9) - March 2022
 - [Tomasz Godzik: The Scalameta Firefighter](https://www.tooling-talks.com/episode-8) - February 2022
 - [Alex Archambault: Coursier and scala-cli - Changing the Way You Start Scala](https://www.tooling-talks.com/episode-7) - December 2021
 - [Rebecca Mark: Unison - A New Approach](https://www.tooling-talks.com/episode-6) - November 2021
