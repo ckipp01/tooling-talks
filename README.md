@@ -12,7 +12,7 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- TBA Soon!
+- [A talk with Amina Adewusi](https://github.com/ckipp01/tooling-talks/discussions/25)
 
 ## Past Guests
 
