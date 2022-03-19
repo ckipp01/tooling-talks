@@ -1,9 +1,9 @@
-// using scala 2.13.8
-// using lib com.lihaoyi::scalatags:0.11.1
-// using lib tech.sparse::toml-scala:0.2.2
-// using lib com.outr::scribe:3.6.10
-// using option -Wunused
-// using resourceDir "./resources"
+//> using scala "2.13.8"
+//> using lib "com.lihaoyi::scalatags:0.11.1"
+//> using lib "tech.sparse::toml-scala:0.2.2"
+//> using lib "com.outr::scribe:3.6.10"
+//> using option "-Wunused"
+//> using resourceDir "./resources"
 
 import scalatags.Text.all._
 import scala.io.Source
