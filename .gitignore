@@ -1,6 +1,5 @@
 .metals/
 .bloop/
-.scala/
 .scala-build/
 out/
 .bsp/
