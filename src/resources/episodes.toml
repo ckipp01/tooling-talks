@@ -215,3 +215,26 @@
   really enjoyed chatting with Gabriel and I'm exciting to see the future of
   what Nix and Scala together could look like. Without further ado, let's dive
   in. Thanks for joining."""
+
+[[episodes]]
+  guest = "Amina Adewusi"
+  title = "Let's Talk about Newcomers"
+  player = """<div id="buzzsprout-player-10348256"></div><script src="https://www.buzzsprout.com/1830936/10348256-amina-adewusi-let-s-talk-about-newcomers.js?container_id=buzzsprout-player-10348256&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image = "images/amina-adewusi.png"
+  thumbnail = "images/amina-adewusi-thumbnail.jpg"
+  twitter = "https://twitter.com/a_adewusi"
+  github = "https://github.com/Nirvikalpa108"
+  website = "https://aminaadewusi.com/"
+  season = 1
+  number = 10
+  notes = """ Welcome back to another episode of Tooling Talks. I'm your host
+  Chris and this month I was able to have an episode fully focused on something
+  I've been wanting to cover for a while, the beginner experience in Scala
+  Tooling. I'm incredibly grateful that Amina Adewusi was willing to take some
+  time and dive into the topic with me. You may know Amina from the conference
+  she created, Scalabase, which is a conference focused on newcomers to Scala,
+  or maybe her course Learning Scala on LinkedIn, which is a short course
+  focused on giving newcomers to Scala a great introduction. She had a ton of
+  insight about the beginner experience, getting starting contributing to open
+  source, and diversifying the ecosystem. It was a pleasure to have her, so
+  without further ado, let's dive in.Thanks for joining."""
