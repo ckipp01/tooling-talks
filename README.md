@@ -12,10 +12,11 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- [A talk with Amina Adewusi](https://github.com/ckipp01/tooling-talks/discussions/25)
+- TBA Soon!
 
 ## Past Guests
 
+- [Amina Adewusi: Let's Talk about Newcomers](https://www.tooling-talks.com/episode-10) - April 2022
 - [Gabriel Volpe: A look at Nix and Scala](https://www.tooling-talks.com/episode-9) - March 2022
 - [Tomasz Godzik: The Scalameta Firefighter](https://www.tooling-talks.com/episode-8) - February 2022
 - [Alex Archambault: Coursier and scala-cli - Changing the Way You Start Scala](https://www.tooling-talks.com/episode-7) - December 2021
