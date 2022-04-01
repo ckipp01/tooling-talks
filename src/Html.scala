@@ -21,7 +21,7 @@ object Html {
       Style.cascasdeRoot,
       headFrag(
         "Tooling Talks",
-        "Tooling Talks podcast - A series of talks about developer tooling.",
+        "Tooling Talks podcast - A series of talks about Scala and Tooling.",
         s"http://www.tooling-talks.com/images/logo-thumbnail.jpg"
       ),
       body(
@@ -135,7 +135,7 @@ object Html {
   private def headerFrag() = {
     header(
       a(href := "index.html")(h1("TOOLING TALKS")),
-      i("a series of talks about tooling"),
+      i("a series of talks about scala and tooling"),
       div(
         Style.iconContainer,
         a(
