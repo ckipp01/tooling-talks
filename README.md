@@ -12,7 +12,7 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- TBA Soon!
+- [A Talk with Olivier Mélois](https://github.com/ckipp01/tooling-talks/discussions/29)
 
 ## Past Guests
 
