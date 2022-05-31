@@ -16,64 +16,72 @@ object Html {
   }
 
   def homePage(episodesHtml: Modifier) = {
-    html(
-      lang := "en",
-      Style.cascasdeRoot,
-      headFrag(
-        "Tooling Talks",
-        "Tooling Talks podcast - A series of talks about Scala and Tooling.",
-        s"http://www.tooling-talks.com/images/logo-thumbnail.jpg"
-      ),
-      body(
-        div(
-          Style.wrapper,
-          headerFrag(),
-          Text.tags2.main(
-            div(Style.episodesContainer, episodesHtml)
-          ),
-          footerFrag()
+    doctype("html")(
+      html(
+        lang := "en",
+        Style.cascasdeRoot,
+        headFrag(
+          "Tooling Talks",
+          "Tooling Talks podcast - A series of talks about Scala and Tooling.",
+          s"http://www.tooling-talks.com/images/logo-thumbnail.jpg"
+        ),
+        body(
+          div(
+            Style.wrapper,
+            headerFrag(),
+            Text.tags2.main(
+              div(Style.episodesContainer, episodesHtml)
+            ),
+            footerFrag()
+          )
         )
       )
     )
   }
 
   def episodePage(episode: Episode) = {
-    html(
-      lang := "en",
-      Style.cascasdeRoot,
-      headFrag(
-        s"Tooling Talks - ${episode.title}",
-        s"Tooling Talks episode ${episode.number} -  ${episode.guest
-          .map(_ + ": ")
-          .getOrElse("")}${episode.title}",
-        s"https://www.tooling-talks.com/images/${episode.thumbnail.getName()}"
-      ),
-      body(
-        div(
-          Style.wrapper,
-          headerFrag(),
-          Text.tags2.main(
-            div(
-              Style.maxAndCenter,
-              episodePageTitle(episode),
+    doctype("html")(
+      html(
+        lang := "en",
+        Style.cascasdeRoot,
+        headFrag(
+          s"Tooling Talks - ${episode.title}",
+          s"Tooling Talks episode ${episode.number} -  ${episode.guest
+            .map(_ + ": ")
+            .getOrElse("")}${episode.title}",
+          s"https://www.tooling-talks.com/images/${episode.thumbnail.getName()}"
+        ),
+        body(
+          div(
+            Style.wrapper,
+            headerFrag(),
+            Text.tags2.main(
               div(
-                p(
-                  Style.subText,
-                  s"SEASON: ${episode.season.toString()} - EPISODE: ${episode.number.toString()}"
+                Style.maxAndCenter,
+                episodePageTitle(episode),
+                div(
+                  p(
+                    Style.subText,
+                    s"SEASON: ${episode.season.toString()} - EPISODE: ${episode.number.toString()}"
+                  )
                 )
-              )
+              ),
+              raw(episode.player),
+              div(
+                Style.maxAndCenter,
+                Style.iconContainer,
+                socialIcons(episode)
+              ),
+              h3(Style.maxAndCenter, "INTRO"),
+              p(Style.maxAndCenter, episode.notes),
+              a(
+                href := "https://github.com/sponsors/ckipp01",
+                target := "_blank",
+                rel := "noopener noreferrer"
+              )(p(Style.subText, "SUPPORT THE SHOW"))
             ),
-            raw(episode.player),
-            div(Style.maxAndCenter, Style.iconContainer, socialIcons(episode)),
-            h3(Style.maxAndCenter, "INTRO"),
-            p(Style.maxAndCenter, episode.notes),
-            a(
-              href := "https://ko-fi.com/ckipp",
-              target := "_blank",
-              rel := "noopener noreferrer"
-            )(p(Style.subText, "SUPPORT THE SHOW"))
-          ),
-          footerFrag()
+            footerFrag()
+          )
         )
       )
     )
@@ -183,13 +191,6 @@ object Html {
         rel := "noopener noreferrer"
       )(
         img(Style.scaleOnHover, src := "../images/twitter.svg")
-      ),
-      a(
-        href := "https://ko-fi.com/ckipp",
-        target := "_blank",
-        rel := "noopener noreferrer"
-      )(
-        img(Style.scaleOnHover, src := "../images/ko-fi.svg")
       )
     )
   }

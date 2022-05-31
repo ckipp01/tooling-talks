@@ -12,10 +12,11 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- [A Talk with Olivier Mélois](https://github.com/ckipp01/tooling-talks/discussions/29)
+- TBA Soon!
 
 ## Past Guests
 
+- [Olivier Mélois](https://www.tooling-talks.com/episode-11) - June 2022
 - [Amina Adewusi: Let's Talk about Newcomers](https://www.tooling-talks.com/episode-10) - April 2022
 - [Gabriel Volpe: A look at Nix and Scala](https://www.tooling-talks.com/episode-9) - March 2022
 - [Tomasz Godzik: The Scalameta Firefighter](https://www.tooling-talks.com/episode-8) - February 2022
