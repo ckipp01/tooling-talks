@@ -238,3 +238,23 @@
   insight about the beginner experience, getting starting contributing to open
   source, and diversifying the ecosystem. It was a pleasure to have her, so
   without further ado, let's dive in.Thanks for joining."""
+
+[[episodes]]
+  guest = "Olivier Mélois"
+  title = "Diving into Smithy"
+  player = """<div id="buzzsprout-player-10696017"></div><script src="https://www.buzzsprout.com/1830936/10696017-olivier-melois-diving-into-smithy.js?container_id=buzzsprout-player-10696017&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image = "images/olivier-melois.png"
+  thumbnail = "images/olivier-melois-thumbnail.jpg"
+  github = "https://github.com/Baccata"
+  season = 1
+  number = 11
+  notes = """Welcome back to another episode of Tooling Talks! I'm your host
+  Chris and I'm excited to share another episode with you this month. Firstly,
+  I wanted to give a heartfelt thanks to everyone out there for your support.
+  Whether its been through GitHub sponsors, Twitter messages, or just listens,
+  seeing the interest around the podcast has been super encouraging. You're all
+  the best. This month I was able to sit down with Olivier Mélois and have a
+  fantastic conversation about Smithy and the surrounding ecosystem. We also
+  talked about horses, build tools, editor integrations, and testing
+  frameworks. There was no shortage of things to talk about with Oliver. So
+  without further ado, let's dive in. Thanks for joining."""
