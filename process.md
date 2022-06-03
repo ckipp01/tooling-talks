@@ -21,7 +21,7 @@ Once contacted, if the interviewee agrees, the following steps will be taken:
 3. The interview itself will be conducted via
    [squadcast](https://squadcast.fm/), which is (browser based) tool that
    ensures your audio is first recorded locally and then stored rather than
-   streamed to a tool like Zoom and then captured. This gives me two seperate
+   streamed to a tool like Zoom and then captured. This gives me two separate
    audio tracks which is much easier to edit.
 
 4. After the stream the recordings will be edited and put up to be distributed

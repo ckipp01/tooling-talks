@@ -4,6 +4,14 @@ Below are some tips to help ensure everything sounds as clear as possible. The
 better you can sound locally, the less editing I'll need to do, and the better
 the end result will sound. Every little bit helps!
 
+NOTE: I use [SquadCast](https://squadcast.fm/) to record the episodes. It's a
+browser-based software so no need to download anything. The main reason I use
+this is to get two separate audio tracks. Plus, they buffer locally before
+uploading so even if the sounds seems to get wonky due to a bad connection, it
+won't impact the end recording. It's a great product.
+
+So, here are some tips.
+
   - Wear headphones. This is one of the most important ones. This will keep
       sounds from echoing and your microphone actually picking up the other
       person talking.
