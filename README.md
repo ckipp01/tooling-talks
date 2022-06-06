@@ -12,7 +12,7 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- TBA Soon!
+- [A Talk with Anton Sviridov](https://github.com/ckipp01/tooling-talks/discussions/32)
 
 ## Past Guests
 
