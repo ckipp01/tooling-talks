@@ -74,6 +74,25 @@ object Html {
               ),
               h3(Style.maxAndCenter, "INTRO"),
               p(Style.maxAndCenter, episode.notes),
+              episode.links match {
+                case None => ()
+                case Some(links) =>
+                  div(
+                    h4(Style.maxAndCenter, "SHOW LINKS"),
+                    ul(
+                      links.map(link =>
+                        li(
+                          Style.maxAndCenter,
+                          a(
+                            href := link.link,
+                            target := "_blank",
+                            rel := "noopener noreferrer"
+                          )(p(Style.maxAndCenter, link.name))
+                        )
+                      )
+                    )
+                  )
+              },
               a(
                 href := "https://github.com/sponsors/ckipp01",
                 target := "_blank",

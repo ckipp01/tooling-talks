@@ -14,8 +14,11 @@ case class Episode(
     website: Option[String],
     season: Int,
     number: Int,
-    notes: String
+    notes: String,
+    links: Option[List[Link]]
 )
+
+case class Link(name: String, link: String)
 
 object Episode {
   implicit val fileCodec: Codec[File] = Codec {
