@@ -258,3 +258,46 @@
   talked about horses, build tools, editor integrations, and testing
   frameworks. There was no shortage of things to talk about with Oliver. So
   without further ado, let's dive in. Thanks for joining."""
+
+[[episodes]]
+  guest = "Anton Sviridov"
+  title = "Part 1 - The Scala Cross Platform Story"
+  player = """<div id="buzzsprout-player-10883985"></div><script src="https://www.buzzsprout.com/1830936/10883985-anton-sviridov-part-1-the-scala-cross-platform-story.js?container_id=buzzsprout-player-10883985&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image = "images/anton-sviridov.png"
+  thumbnail = "images/anton-sviridov-thumbnail.jpg"
+  twitter = "https://twitter.com/velvetbaldmime"
+  website = "https://blog.indoorvivants.com/"
+  github = "https://github.com/keynmol"
+  season = 1
+  number = 12
+  notes = """Welcome back to another episode of Tooling Talks! I'm your host
+  Chris and we have yet another great episode for you this month. In fact, it's
+  so great, that it will actually be two parts. For this first episode with
+  Anton we got to chat about all things cross building, the various platforms
+  you can run your Scala code on, and also about the work it takes to not only
+  maintain projects with multiple Scala versions, but also for those various
+  platforms. Anton has been an absolute joy to interact with online, he's
+  helpful, he works on all sorts of open source projects, and he's another
+  Neovim user, which might just be his best trait yet. So without further ado,
+  let's dive in. Thanks for joining.."""
+  [[episodes.links]]
+    name = "Scala.js site"
+    link = "https://www.scala-js.org/"
+  [[episodes.links]]
+    name = "Scala Native Site"
+    link = "https://scala-native.readthedocs.io/en/latest/index.html"
+  [[episodes.links]]
+    name = "sbt disucssion about native Scala.js and Scala Native integration"
+    link = "https://github.com/sbt/sbt/discussions/6736"
+  [[episodes.links]]
+    name = "Revisiting Scala Native performance article by Wojciech Mazur"
+    link = "https://medium.com/virtuslab/revisiting-scala-native-performance-67029089f241"
+  [[episodes.links]]
+    name = "Start of Anton's Twotm8 series"
+    link = "https://blog.indoorvivants.com/2022-03-03-twotm8-part-1-introduction"
+  [[episodes.links]]
+    name = "Gabriel Volpe's trading full stack app example"
+    link = "https://github.com/gvolpe/trading"
+  [[episodes.links]]
+    name = "Anton's sn-bindgen project"
+    link = "https://sn-bindgen.indoorvivants.com/"

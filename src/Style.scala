@@ -43,6 +43,11 @@ object Style extends CascadingStyleSheet {
       fontSize := "1.2rem",
       lineHeight := "2rem"
     ),
+    h4(
+      fontWeight.bold,
+      fontSize := "1.1rem",
+      lineHeight := "2rem"
+    ),
     Selector("main")(
       padding := "1rem",
       flexGrow := 1,
@@ -64,6 +69,10 @@ object Style extends CascadingStyleSheet {
         maxHeight := 20,
         margin := "5px 0"
       )
+    ),
+    li(
+      marginLeft := "20px",
+      listStyleType.circle
     )
   )
 
@@ -113,7 +122,8 @@ object Style extends CascadingStyleSheet {
 
   def maxAndCenter = cls(
     maxWidth := 750,
-    margin := "5px auto"
+    margin := "5px auto",
+    a(textDecoration.underline)
   )
 
   def subText = cls(

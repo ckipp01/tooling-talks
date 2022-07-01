@@ -12,10 +12,11 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- [A Talk with Anton Sviridov](https://github.com/ckipp01/tooling-talks/discussions/32)
+- TBA Soon!
 
 ## Past Guests
 
+- [Anton Sviridov: Part 1 - The Scala Cross Platform Story](https://www.tooling-talks.com/episode-12)
 - [Olivier Mélois: Diving into Smithy](https://www.tooling-talks.com/episode-11) - June 2022
 - [Amina Adewusi: Let's Talk about Newcomers](https://www.tooling-talks.com/episode-10) - April 2022
 - [Gabriel Volpe: A look at Nix and Scala](https://www.tooling-talks.com/episode-9) - March 2022
