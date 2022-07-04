@@ -12,7 +12,7 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- TBA Soon!
+- [Episode 14: A Talk with Jeremy Smith](https://github.com/ckipp01/tooling-talks/discussions/36)
 
 ## Past Guests
 
