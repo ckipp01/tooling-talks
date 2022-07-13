@@ -52,7 +52,7 @@ object Style extends CascadingStyleSheet {
       padding := "1rem",
       flexGrow := 1,
       lineHeight := "1.75rem",
-      maxWidth := 815,
+      maxWidth := 800,
       margin := "0 auto"
     ),
     i(fontStyle.italic),
@@ -108,7 +108,7 @@ object Style extends CascadingStyleSheet {
     display.flex,
     flexDirection.column,
     alignItems.center,
-    maxWidth := 250,
+    maxWidth := 225,
     h1(textAlign.center),
     p(textAlign.center)
   )
