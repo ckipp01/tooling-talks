@@ -345,9 +345,6 @@
     name = "The Tree-sitter project"
     link = "https://tree-sitter.github.io/tree-sitter/"
   [[episodes.links]]
-    name = "Anton's blog post - Smithy in Neovim: parsing, syntax highlighting, LSP"
-    link = "https://blog.indoorvivants.com/2022-05-12-smithy-neovim"
-  [[episodes.links]]
     name = "Online AST Explorer"
     link = "https://astexplorer.net/"
   [[episodes.links]]
