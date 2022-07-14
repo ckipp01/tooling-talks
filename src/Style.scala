@@ -108,7 +108,7 @@ object Style extends CascadingStyleSheet {
     display.flex,
     flexDirection.column,
     alignItems.center,
-    maxWidth := 250,
+    maxWidth := 225,
     h1(textAlign.center),
     p(textAlign.center)
   )

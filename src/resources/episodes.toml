@@ -279,7 +279,7 @@
   platforms. Anton has been an absolute joy to interact with online, he's
   helpful, he works on all sorts of open source projects, and he's another
   Neovim user, which might just be his best trait yet. So without further ado,
-  let's dive in. Thanks for joining.."""
+  let's dive in. Thanks for joining."""
   [[episodes.links]]
     name = "Scala.js site"
     link = "https://www.scala-js.org/"
@@ -301,3 +301,64 @@
   [[episodes.links]]
     name = "Anton's sn-bindgen project"
     link = "https://sn-bindgen.indoorvivants.com/"
+
+[[episodes]]
+  guest = "Anton Sviridov"
+  title = "Part 2 - I Do As the Crystal Guides"
+  player = """<div id="buzzsprout-player-10933973"></div><script src="https://www.buzzsprout.com/1830936/10933973-anton-sviridov-part-2-i-do-as-the-crystal-guides.js?container_id=buzzsprout-player-10933973&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image = "images/anton-sviridov.png"
+  thumbnail = "images/anton-sviridov-thumbnail.jpg"
+  twitter = "https://twitter.com/velvetbaldmime"
+  website = "https://blog.indoorvivants.com/"
+  github = "https://github.com/keynmol"
+  season = 1
+  number = 13
+  notes = """This week we have a special episode, a part two of the fantastic
+  talk I had with Anton. During this episode we dive into all sorts of great
+  stuff ranging from Neovim, language parsers, and how good tooling radically
+  improves the developer experience. I want to thank Anton again for being so
+  gracious with his time, and giving us all sorts of goodies to think on. As
+  always, thanks so much for listening and for your support. I'm your host
+  Chris, and now let's dive in."""
+  [[episodes.links]]
+    name = "sbt docs"
+    link = "https://www.scala-sbt.org/1.x/docs/"
+  [[episodes.links]]
+    name = "Mill docs"
+    link = "https://com-lihaoyi.github.io/mill/mill/Intro_to_Mill.html"
+  [[episodes.links]]
+    name = "Neovim"
+    link = "https://neovim.io/"
+  [[episodes.links]]
+    name = "Language Server Protocol"
+    link = "https://microsoft.github.io/language-server-protocol/"
+  [[episodes.links]]
+    name = "nvim-jdtls - Neovim plugin for eclipse.jdt.ls support"
+    link = "https://github.com/mfussenegger/nvim-jdtls"
+  [[episodes.links]]
+    name = "nvim-dap - Debug Adapter Protocol client implementation for Neovim"
+    link = "https://github.com/mfussenegger/nvim-dap"
+  [[episodes.links]]
+    name = "Anton's blog post - Smithy in Neovim: parsing, syntax highlighting, LSP"
+    link = "https://blog.indoorvivants.com/2022-05-12-smithy-neovim"
+  [[episodes.links]]
+    name = "The Tree-sitter project"
+    link = "https://tree-sitter.github.io/tree-sitter/"
+  [[episodes.links]]
+    name = "Anton's blog post - Smithy in Neovim: parsing, syntax highlighting, LSP"
+    link = "https://blog.indoorvivants.com/2022-05-12-smithy-neovim"
+  [[episodes.links]]
+    name = "Online AST Explorer"
+    link = "https://astexplorer.net/"
+  [[episodes.links]]
+    name = "ANTLR - ANother Tool for Language Recognition"
+    link = "https://www.antlr.org/"
+  [[episodes.links]]
+    name = "Apache Avro"
+    link = "https://avro.apache.org/"
+  [[episodes.links]]
+    name = "clangd - Language Server for C"
+    link = "https://clangd.llvm.org/"
+  [[episodes.links]]
+    name = "Blazingly Fast reference... check out The Primeagen"
+    link = "https://www.youtube.com/c/ThePrimeagen/featured"
