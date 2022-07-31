@@ -359,3 +359,44 @@
   [[episodes.links]]
     name = "Blazingly Fast reference... check out The Primeagen"
     link = "https://www.youtube.com/c/ThePrimeagen/featured"
+
+[[episodes]]
+  guest = "Jeremy Smith"
+  title = "Polynote and Notebooks"
+  player = """<div id="buzzsprout-player-11017610"></div><script src="https://www.buzzsprout.com/1830936/11017610-jeremy-smith-polynote-and-notebooks.js?container_id=buzzsprout-player-11017610&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image = "images/jeremy-smith.png"
+  thumbnail = "images/jeremy-smith-thumbnail.jpg"
+  twitter = "https://twitter.com/jeremyrsmith"
+  github = "https://github.com/jeremyrsmith"
+  season = 1
+  number = 14
+  notes = """Welcome back to another episode of Tooling Talks! I'm your host
+  Chris and I'm excited to share this episode with you. This past month I was
+  able to sit down with Jeremy Smith and talk Notebooks, something I've been
+  wanting to focus an episode on for a while. If you're familiar at all with
+  Notebooks in Scala you're probably aware of Polynote, which was primarily
+  written by Jeremey and was the focus of our discussion. It was a pleasure to
+  have him share his thoughts about notebook usage, building a new notebook,
+  and some of the troubles and decisions he faced during the process. So
+  without further ado, let's dive in, and thanks for joining."""
+  [[episodes.links]]
+    name = "3-2-1 Contact Magazine"
+    link = "https://archive.org/details/321contact"
+  [[episodes.links]]
+    name = "Polynote"
+    link = "https://polynote.org/latest/"
+  [[episodes.links]]
+    name = "Netflix Technology Blog announcing Polynote"
+    link = "https://netflixtechblog.com/open-sourcing-polynote-an-ide-inspired-polyglot-notebook-7f929d3f447"
+  [[episodes.links]]
+    name = "Apache Zeppelin"
+    link = "https://zeppelin.apache.org/"
+  [[episodes.links]]
+    name = "Almond - Scala kernal for Jupyter"
+    link = "https://alexarchambault.github.io/almond/"
+  [[episodes.links]]
+    name = "Jupyter Notebook"
+    link = "https://jupyter.org/"
+  [[episodes.links]]
+    name = "JetBrains Datalore"
+    link = "https://datalore.jetbrains.com/"
