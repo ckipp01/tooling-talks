@@ -12,10 +12,12 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- [Episode 14: A Talk with Jeremy Smith](https://github.com/ckipp01/tooling-talks/discussions/36)
+- TBA Soon!
 
 ## Past Guests
 
+- [Jeremy Smith: Polynote and Notebooks](https://www.tooling-talks.com/episode-14) - August 2022
+- [Anton Sviridov: Part 2 - I Do As the Crystal Guides](https://www.tooling-talks.com/episode-13) - July 2022
 - [Anton Sviridov: Part 1 - The Scala Cross Platform Story](https://www.tooling-talks.com/episode-12) - July 2022
 - [Olivier Mélois: Diving into Smithy](https://www.tooling-talks.com/episode-11) - June 2022
 - [Amina Adewusi: Let's Talk about Newcomers](https://www.tooling-talks.com/episode-10) - April 2022
