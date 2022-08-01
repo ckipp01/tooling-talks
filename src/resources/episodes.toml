@@ -374,11 +374,11 @@
   Chris and I'm excited to share this episode with you. This past month I was
   able to sit down with Jeremy Smith and talk Notebooks, something I've been
   wanting to focus an episode on for a while. If you're familiar at all with
-  Notebooks in Scala you're probably aware of Polynote, which was primarily
-  written by Jeremey and was the focus of our discussion. It was a pleasure to
-  have him share his thoughts about notebook usage, building a new notebook,
-  and some of the troubles and decisions he faced during the process. So
-  without further ado, let's dive in, and thanks for joining."""
+  Notebooks in Scala you're probably aware of Polynote, which was started by
+  Jeremey and was the focus of our discussion. It was a pleasure to have him
+  share his thoughts about notebook usage, building a new notebook, and some of
+  the troubles and decisions he faced during the process. So without further
+  ado, let's dive in, and thanks for joining."""
   [[episodes.links]]
     name = "3-2-1 Contact Magazine"
     link = "https://archive.org/details/321contact"
