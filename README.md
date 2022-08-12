@@ -12,7 +12,7 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- TBA Soon!
+- [A Talk with Filip Zybała](https://github.com/ckipp01/tooling-talks/discussions/44)
 
 ## Past Guests
 
