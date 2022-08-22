@@ -12,8 +12,9 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- [A Talk with Filip Zybała](https://github.com/ckipp01/tooling-talks/discussions/44)
-
+- [A Talk with Filip Zybała](https://github.com/ckipp01/tooling-talks/discussions/44) - September 2022
+- [A Talk with Gabriele Petronella](https://github.com/ckipp01/tooling-talks/discussions/45) - October 2022
+ 
 ## Past Guests
 
 - [Jeremy Smith: Polynote and Notebooks](https://www.tooling-talks.com/episode-14) - August 2022
