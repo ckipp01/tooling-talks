@@ -151,10 +151,18 @@ object Html {
       Text.tags2.style(Style.raw),
       Text.tags2.style(Style.styleSheetText),
       script(
-        attr("async") := true,
+        async := true,
         src := "https://ackee-khaki.vercel.app/tracker.js",
         attr("data-ackee-server") := "https://ackee-khaki.vercel.app",
         attr("data-ackee-domain-id") := "02a18571-a91e-42e4-b448-04d14cb6fc1a"
+      ),
+      // XXX currently just trying this out to see if we like it. If so, we'll get rid of ackee
+      script(
+        defer := true,
+        `type` := "text/javascript",
+        src := "https://api.pirsch.io/pirsch.js",
+        id := "pirschjs",
+        attr("data-code") := "vr9RbZIuF6o05rD9zTwRfeRzbbxGMVhb"
       )
     )
   }
