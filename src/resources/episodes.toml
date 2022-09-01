@@ -400,3 +400,39 @@
   [[episodes.links]]
     name = "JetBrains Datalore"
     link = "https://datalore.jetbrains.com/"
+
+[[episodes]]
+  guest = "Filip Zybała"
+  title = "Scaladoc from Scratch"
+  player = """<div id="buzzsprout-player-11215856"></div><script src="https://www.buzzsprout.com/1830936/11215856-filip-zybala-scaladoc-from-scratch.js?container_id=buzzsprout-player-11215856&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image = "images/filip-zybala.png"
+  thumbnail = "images/filip-zybala-thumbnail.jpg"
+  twitter = "https://twitter.com/pikinier_vl"
+  github = "https://github.com/pikinier20"
+  season = 1
+  number = 15
+  notes = """ Welcome back to another episode of Tooling Talks! I'm your host
+  Chris and I have another great episode for you this month. For a while now
+  I've wanted to have an episode focused on the new Scaladocs for Scala 3.
+  Completely re-written and hosting some great new features like being able to
+  generate your entire static site, your blog and along with your API docs, as
+  well as hoogle-like search. This episode I was able to sit down with Filip,
+  who's spent the past couple years focused on Scaladocs and the tools around
+  it. I'm hoping this episode helps spread the love about Scaladocs and shines
+  a bit of light on some of these new features. So without further ado, let's
+  dive in, and as always, thanks for joining."""
+  [[episodes.links]]
+    name = "New Scaladoc documentation for Scala 3"
+    link = "https://docs.scala-lang.org/scala3/guides/scaladoc/index.html"
+  [[episodes.links]]
+    name = "Where the code is located for Scaladoc"
+    link = "https://github.com/lampepfl/dotty/tree/main/scaladoc"
+  [[episodes.links]]
+    name = "Kotlin Dokka documentation engine"
+    link = "https://github.com/Kotlin/dokka"
+  [[episodes.links]]
+    name = "Inkuire - Hoogle-like search for Scala 3 and Kotlin"
+    link = "https://github.com/VirtusLab/Inkuire"
+  [[episodes.links]]
+    name = "Hoogle - Haskell API search engine"
+    link = "https://hoogle.haskell.org/"
