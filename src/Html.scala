@@ -9,7 +9,11 @@ object Html {
       div(
         Style.episodeContainer,
         Style.scaleOnHover,
-        img(Style.episode, src := s"images/${episode.image.getName()}"),
+        img(
+          Style.episode,
+          src := s"images/${episode.image.getName()}",
+          alt := s"""${episode.guest.getOrElse("Tooling Talks")} avatar"""
+        ),
         createEpisodeTitle(episode)
       )
     )
@@ -47,8 +51,8 @@ object Html {
         headFrag(
           s"Tooling Talks - ${episode.title}",
           s"Tooling Talks episode ${episode.number} -  ${episode.guest
-            .map(_ + ": ")
-            .getOrElse("")}${episode.title}",
+              .map(_ + ": ")
+              .getOrElse("")}${episode.title}",
           s"https://www.tooling-talks.com/images/${episode.thumbnail.getName()}"
         ),
         body(
@@ -178,23 +182,47 @@ object Html {
           target := "_blank",
           rel := "noopener noreferrer"
         )(
-          img(Style.scaleOnHover, src := "../images/spotify.svg")
+          img(
+            Style.scaleOnHover,
+            src := "../images/spotify.svg",
+            alt := "Spotify logo"
+          )
         ),
         a(
           href := "https://podcasts.apple.com/us/podcast/tooling-talks/id1580009576",
           target := "_blank",
           rel := "noopener noreferrer"
-        )(img(Style.scaleOnHover, src := "../images/apple-podcast.svg")),
+        )(
+          img(
+            Style.scaleOnHover,
+            src := "../images/apple-podcast.svg",
+            alt := "Apple Podcast logo"
+          )
+        ),
         a(href := "https://www.deezer.com/show/2874482")(
-          img(Style.scaleOnHover, src := "../images/deezer-logo.svg")
+          img(
+            Style.scaleOnHover,
+            src := "../images/deezer-logo.svg",
+            alt := "Deezer logo"
+          )
         ),
         a(
           href := "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8xODMwOTM2LnJzcw==",
           target := "_blank",
           rel := "noopener noreferrer"
-        )(img(Style.scaleOnHover, src := "../images/google-podcast.svg")),
+        )(
+          img(
+            Style.scaleOnHover,
+            src := "../images/google-podcast.svg",
+            alt := "Google Podcasts logo"
+          )
+        ),
         a(href := "https://feeds.buzzsprout.com/1830936.rss")(
-          img(Style.scaleOnHover, src := "../images/rss.svg")
+          img(
+            Style.scaleOnHover,
+            src := "../images/rss.svg",
+            alt := "rss feed logo"
+          )
         )
       )
     )
@@ -207,17 +235,29 @@ object Html {
         target := "_blank",
         rel := "noopener noreferrer"
       )(
-        img(Style.scaleOnHover, src := "../images/github.svg")
+        img(
+          Style.scaleOnHover,
+          src := "../images/github.svg",
+          alt := "GitHub logo"
+        )
       ),
       a(href := "mailto:tooling-talks@chris-kipp.io")(
-        img(Style.scaleOnHover, src := "../images/email.svg")
+        img(
+          Style.scaleOnHover,
+          src := "../images/email.svg",
+          alt := "email logo"
+        )
       ),
       a(
         href := "https://twitter.com/ckipp01",
         target := "_blank",
         rel := "noopener noreferrer"
       )(
-        img(Style.scaleOnHover, src := "../images/twitter.svg")
+        img(
+          Style.scaleOnHover,
+          src := "../images/twitter.svg",
+          alt := "Twitter logo"
+        )
       )
     )
   }
@@ -232,17 +272,29 @@ object Html {
     List(
       episode.github.map { github =>
         a(href := github, target := "_blank", rel := "noopener noreferrer")(
-          img(Style.scaleOnHover, src := "../images/github.svg")
+          img(
+            Style.scaleOnHover,
+            src := "../images/github.svg",
+            alt := "GitHub logo"
+          )
         )
       },
       episode.twitter.map { twitter =>
         a(href := twitter, target := "_blank", rel := "noopener noreferrer")(
-          img(Style.scaleOnHover, src := "../images/twitter.svg")
+          img(
+            Style.scaleOnHover,
+            src := "../images/twitter.svg",
+            alt := "Twitter logo"
+          )
         )
       },
       episode.website.map { website =>
         a(href := website, target := "_blank", rel := "noopener noreferrer")(
-          img(Style.scaleOnHover, src := "../images/globe.svg")
+          img(
+            Style.scaleOnHover,
+            src := "../images/globe.svg",
+            alt := "Website logo"
+          )
         )
       }
     ).flatten
