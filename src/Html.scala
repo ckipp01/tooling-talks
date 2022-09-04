@@ -51,8 +51,8 @@ object Html {
         headFrag(
           s"Tooling Talks - ${episode.title}",
           s"Tooling Talks episode ${episode.number} -  ${episode.guest
-            .map(_ + ": ")
-            .getOrElse("")}${episode.title}",
+              .map(_ + ": ")
+              .getOrElse("")}${episode.title}",
           s"https://www.tooling-talks.com/images/${episode.thumbnail.getName()}"
         ),
         body(
