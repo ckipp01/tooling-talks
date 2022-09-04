@@ -12,11 +12,11 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- [A Talk with Filip Zybała](https://github.com/ckipp01/tooling-talks/discussions/44) - September 2022
 - [A Talk with Gabriele Petronella](https://github.com/ckipp01/tooling-talks/discussions/45) - October 2022
  
 ## Past Guests
 
+- [Filip Zybała: Scaladoc from Scratch](https://www.tooling-talks.com/episode-15) - September 2022
 - [Jeremy Smith: Polynote and Notebooks](https://www.tooling-talks.com/episode-14) - August 2022
 - [Anton Sviridov: Part 2 - I Do As the Crystal Guides](https://www.tooling-talks.com/episode-13) - July 2022
 - [Anton Sviridov: Part 1 - The Scala Cross Platform Story](https://www.tooling-talks.com/episode-12) - July 2022
