@@ -1,7 +1,7 @@
 [[episodes]]
   title = "Welcome to Tooling Talks"
   player = """<div id="buzzsprout-player-8978912"></div><script src="https://www.buzzsprout.com/1830936/8978912-welcome-to-tooling-talks.js?container_id=buzzsprout-player-8978912&player=small" type="text/javascript" charset="utf-8"></script>"""
-  image = "images/logo.jpg"
+  image = "images/bare-logo.png"
   thumbnail = "images/logo-thumbnail.jpg"
   season = 1
   number = 0
