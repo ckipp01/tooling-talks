@@ -411,7 +411,7 @@
   github = "https://github.com/pikinier20"
   season = 1
   number = 15
-  notes = """ Welcome back to another episode of Tooling Talks! I'm your host
+  notes = """Welcome back to another episode of Tooling Talks! I'm your host
   Chris and I have another great episode for you this month. For a while now
   I've wanted to have an episode focused on the new Scaladocs for Scala 3.
   Completely re-written and hosting some great new features like being able to
@@ -436,3 +436,48 @@
   [[episodes.links]]
     name = "Hoogle - Haskell API search engine"
     link = "https://hoogle.haskell.org/"
+
+[[episodes]]
+  guest = "Gabriele Petronella"
+  title = "The Scala Improvement Process (SIP)"
+  player = """<div id="buzzsprout-player-11405923"></div><script src="https://www.buzzsprout.com/1830936/11405923-gabriele-petronella-the-scala-improvement-process-sip.js?container_id=buzzsprout-player-11405923&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image = "images/gabriele-petronella.png"
+  thumbnail = "images/gabriele-petronella-thumbnail.jpg"
+  twitter = "https://twitter.com/gabro27"
+  github = "https://github.com/gabro"
+  season = 1
+  number = 16
+  notes = """Welcome back to another episode of Tooling Talks! I'm your host
+  Chris and I have an episode for you today that I've wanted to do for quite
+  some time. Early on when I was first getting started with open Source
+  Gabriele was one of the first people I interacted with. He's got a ton of
+  experience with the Scalameta toolchain, and is one of the "founding fathers"
+  of Metals. Furthermore, he's also part of the SIP (Scala Improvement Process)
+  committee for Scala 3. In this talk we'll dive into the SIP process, talk
+  about what it is, how tooling relates to it, and a bit about some of the
+  current proposals. So without further ado, let's dive in, and thanks for
+  joining."""
+  [[episodes.links]]
+    name = "buildo - Company that Gabriele co-founded"
+    link = "https://www.buildo.io"
+  [[episodes.links]]
+    name = "dragos-vscode-scala - early inspiration for Metals"
+    link = "https://github.com/dragos/dragos-vscode-scala"
+  [[episodes.links]]
+    name = "Scalafix"
+    link = "https://scalacenter.github.io/scalafix"
+  [[episodes.links]]
+    name = "Scala Improvement Process on the Scala website"
+    link = "https://docs.scala-lang.org/sips"
+  [[episodes.links]]
+    name = "Scala Improvement Process GitHub Repo"
+    link = "https://github.com/scala/improvement-proposals"
+  [[episodes.links]]
+    name = "SIP-44 - Fewer braces"
+    link = "https://github.com/scala/improvement-proposals/blob/main/content/fewer-braces.md"
+  [[episodes.links]]
+    name = "Gabriele's talk using AST Explorer"
+    link = "https://www.youtube.com/watch?v=viFAI6RFLuQ"
+  [[episodes.links]]
+    name = "Eugene's refactoring proposal to the Scala Center Advisory Board"
+    link = "https://github.com/scalacenter/advisoryboard/blob/main/proposals/027-refactoring.md"
