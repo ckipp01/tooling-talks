@@ -82,6 +82,7 @@ object Html {
                 case None => ()
                 case Some(links) =>
                   div(
+                    Style.showLinks,
                     h4(Style.maxAndCenter, "SHOW LINKS"),
                     ul(
                       links.map(link =>
@@ -91,7 +92,7 @@ object Html {
                             href := link.link,
                             target := "_blank",
                             rel := "noopener noreferrer"
-                          )(p(Style.maxAndCenter, link.name))
+                          )(link.name)
                         )
                       )
                     )

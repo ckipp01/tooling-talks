@@ -122,8 +122,15 @@ object Style extends CascadingStyleSheet {
 
   def maxAndCenter = cls(
     maxWidth := 750,
-    margin := "5px auto",
-    a(textDecoration.underline)
+    margin := "5px auto"
+  )
+
+  def showLinks = cls(
+    a(
+      borderBottomWidth := "2px",
+      borderBottomStyle.dashed,
+      &.hover(background := black, color := cream)
+    )
   )
 
   def subText = cls(
@@ -133,7 +140,7 @@ object Style extends CascadingStyleSheet {
 
   // There isn't a good way to do things like @import or * with scalatags, so
   // we just do it raw here.
-  lazy val raw = """|* {
+  lazy val raw = s"""* {
                |  margin:0;
                |  padding:0;
                |  border:0;
@@ -152,14 +159,16 @@ object Style extends CascadingStyleSheet {
                |  -moz-osx-font-smoothing: grayscale;
                |  }
                |
-               |  *:focus {
-               |    outline: none
-               |  }
-               |
                |  @import url('https://rsms.me/inter/inter.css');
                |  html { font-family: 'Inter', sans-serif; }
                |  @supports (font-variation-settings: normal) {
                |    html { font-family: 'Inter var', sans-serif; }
-               |  }""".stripMargin
+               |  }
+               |
+               |*:focus {
+               |  outline: 0;
+               |  background: $black;
+               |  color: $cream;
+               |}""".stripMargin
 
 }
