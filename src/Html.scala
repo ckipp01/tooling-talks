@@ -44,16 +44,18 @@ object Html {
   }
 
   def episodePage(episode: Episode) = {
+    val title = s"Tooling Talks Episode ${episode.number} -  ${episode.guest
+        .map(_ + ": ")
+        .getOrElse("")}${episode.title}"
     doctype("html")(
       html(
         lang := "en",
         Style.cascasdeRoot,
         headFrag(
-          s"Tooling Talks - ${episode.title}",
-          s"Tooling Talks episode ${episode.number} -  ${episode.guest
-              .map(_ + ": ")
-              .getOrElse("")}${episode.title}",
-          s"https://www.tooling-talks.com/images/${episode.thumbnail.getName()}"
+          pageTitle = title,
+          description = episode.notes,
+          thumbnail =
+            s"https://www.tooling-talks.com/images/${episode.thumbnail.getName()}"
         ),
         body(
           div(
