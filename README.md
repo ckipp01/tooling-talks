@@ -12,7 +12,7 @@ announcement!](https://github.com/ckipp01/tooling-talks/discussions)
 
 ## Next Guest
 
-- TBA Soon!
+- A talk with [Krzysztof Romanowski](https://twitter.com/RomanowskiKr)
  
 ## Past Guests
 
