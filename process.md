@@ -8,11 +8,8 @@ Once contacted, if the interviewee agrees, the following steps will be taken:
    guideline or the exact questions to be asked, but will serve as a way to give
    the interviewee a general sense of what types of questions will be asked.
    Most of the time follow-ups and related questions to what are listed are
-   free-game. Also there may be questions that someone on GitHub asked that we
-   can tackle if they are relevant. (Before each episode I post about them
-   [here](https://github.com/ckipp01/tooling-talks/discussions).) This is also a
-   great time of the interviewee to mention anything they may not want to speak
-   about.
+   free-game. This is also a great time of the interviewee to mention anything
+   they may not want to speak about.
 
 2. Leading up to the talk an avatar will be created of the interview similar to
    the ones used for [everyone on the site](https://www.tooling-talks.com/) to
@@ -26,3 +23,6 @@ Once contacted, if the interviewee agrees, the following steps will be taken:
 
 4. After the stream the recordings will be edited and put up to be distributed
    to all your favorite podcast platforms!
+
+5. Following the release of the episode there will be a comment section on each
+   page _hopefully_ allowing for some conversation about your episode!
