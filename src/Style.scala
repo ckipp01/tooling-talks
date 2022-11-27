@@ -166,9 +166,7 @@ object Style extends CascadingStyleSheet {
                |  }
                |
                |*:focus {
-               |  outline: 0;
-               |  background: $black;
-               |  color: $cream;
+               |  border: 1px dotted black;
                |}""".stripMargin
 
 }
