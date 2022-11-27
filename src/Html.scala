@@ -51,23 +51,6 @@ object Html {
       html(
         lang := "en",
         Style.cascasdeRoot,
-        script(
-          src := "https://giscus.app/client.js",
-          data("repo") := "ckipp01/tooling-talks",
-          data("repo-id") := "MDEwOlJlcG9zaXRvcnkzNjE0ODY0NTc=",
-          data("category") := "Episode Discussion",
-          data("category-id") := "DIC_kwDOFYvYec4CSyI9",
-          data("mapping") := "title",
-          data("strict") := "0",
-          data("reactions-enabled") := "1",
-          data("emit-metadata") := "0",
-          data("input-position") := "top",
-          data("theme") := "dark",
-          data("lang") := "en",
-          data("loading") := "lazy",
-          crossorigin := "anonymous",
-          async
-        ),
         headFrag(
           pageTitle = title,
           description = episode.notes,
@@ -121,7 +104,24 @@ object Html {
                 href := "https://github.com/sponsors/ckipp01",
                 target := "_blank",
                 rel := "noopener noreferrer"
-              )(p(Style.subText, "SUPPORT THE SHOW"))
+              )(p(Style.subText, "SUPPORT THE SHOW")),
+              script(
+                src := "https://giscus.app/client.js",
+                data("repo") := "ckipp01/tooling-talks",
+                data("repo-id") := "MDEwOlJlcG9zaXRvcnkzNjE0ODY0NTc=",
+                data("category") := "Episode Discussion",
+                data("category-id") := "DIC_kwDOFYvYec4CSyI9",
+                data("mapping") := "title",
+                data("strict") := "0",
+                data("reactions-enabled") := "1",
+                data("emit-metadata") := "0",
+                data("input-position") := "top",
+                data("theme") := "dark_dimmed",
+                data("lang") := "en",
+                data("loading") := "lazy",
+                crossorigin := "anonymous",
+                async
+              )
             ),
             footerFrag()
           )
