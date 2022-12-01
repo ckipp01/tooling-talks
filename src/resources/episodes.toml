@@ -481,3 +481,69 @@
   [[episodes.links]]
     name = "Eugene's refactoring proposal to the Scala Center Advisory Board"
     link = "https://github.com/scalacenter/advisoryboard/blob/main/proposals/027-refactoring.md"
+
+[[episodes]]
+  guest = "Krzysztof Romanowski"
+  title = "VirtusLab, a Tooling Powerhouse"
+  player = """<div id="buzzsprout-player-11767838"></div><script src="https://www.buzzsprout.com/1830936/11767838-krzysztof-romanowski-virtuslab-a-tooling-powerhouse.js?container_id=buzzsprout-player-11767838&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image = "images/krzysztof-romanowski.png"
+  thumbnail = "images/krzysztof-romanowski-thumbnail.jpg"
+  twitter = "https://twitter.com/RomanowskiKr"
+  github = "https://github.com/romanowski"
+  season = 1
+  number = 17
+  notes = """Welcome back to another episode of Tooling Talks! I'm your host
+  Chris and I have another exciting episode for you today. If you've been
+  paying attention to where a handful of my guests work you'll have noticed a
+  trend of VirtusLab employees. If you're also paying attention to who's been
+  contributing to the Scala 3 compiler, tooling, and pushing for various
+  efforts like scala-cli and the Scala Toolkit, you'll see their name
+  everywhere. This month I though I'd shift gears a little bit and instead of
+  focusing on an individual working on a tool, focus on someone managing a team
+  of people contributing to the ecosystem. So this month I sat down with
+  Krzysztof Romanowski and talked all about the work VirtusLab has been doing
+  in the various areas, explored whether Scala 3 is "industry ready", and
+  talked about some of the upcoming projects you'll see. This conversation was
+  a great change of pace. I also want to take a moment and shine some light on
+  some recent changes on the Tooling Talks website. You'll notice there are
+  comment sections now on each page. Please do feel free to discuss episodes
+  there. So without further ado, let's dive in. Thanks for joining."""
+  [[episodes.links]]
+    name = "VirtusLab homepage"
+    link = "https://www.virtuslab.com/"
+  [[episodes.links]]
+    name = "ScalaIDE which VL worked on some in the early days"
+    link = "http://scala-ide.org/"
+  [[episodes.links]]
+    name = "sphere.it conference that was mentioned"
+    link = "https://sphere.it/"
+  [[episodes.links]]
+    name = "Metals, the Scala Language Server with VL is heavily involed with"
+    link = "https://scalameta.org/metals/"
+  [[episodes.links]]
+    name = "IntelliJ IDEA, which needs no introduction"
+    link = "https://www.jetbrains.com/idea/"
+  [[episodes.links]]
+    name = "Scala 3 unused linting PR"
+    link = "https://github.com/lampepfl/dotty/pull/16157"
+  [[episodes.links]]
+    name = "scala-cli which was spearheaded by VL"
+    link = "https://scala-cli.virtuslab.org/"
+  [[episodes.links]]
+    name = "The Lichess Scala 3 migration PR"
+    link = "https://github.com/lichess-org/lila/pull/11875"
+  [[episodes.links]]
+    name = "Bloop site, which always seems to come up"
+    link = "https://scalacenter.github.io/bloop/"
+  [[episodes.links]]
+    name = "Bloop PR to migrate to Monix 3"
+    link = "https://github.com/scalacenter/bloop/pull/1759"
+  [[episodes.links]]
+    name = "Blog post about Scala Toolkit"
+    link = "https://virtuslab.com/blog/scala-toolkit-makes-scala-powerful-straight-out-of-the-box/"
+  [[episodes.links]]
+    name = "scala-cli actionable diagnostic example"
+    link = "https://github.com/VirtusLab/scala-cli/issues/1542"
+  [[episodes.links]]
+    name = "The Journey of a Dotty Diagnostic blog post"
+    link = "https://www.chris-kipp.io/blog/the-journey-of-a-dotty-diagnostic"
