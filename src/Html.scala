@@ -156,7 +156,7 @@ object Html {
       ),
       meta(
         name := "og:title",
-        content := "Tooling Talks"
+        content := pageTitle
       ),
       meta(
         name := "og:image",
