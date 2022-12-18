@@ -271,6 +271,17 @@ object Html {
           src := "../images/twitter.svg",
           alt := "Twitter logo"
         )
+      ),
+      a(
+        href := "https://hachyderm.io/@ckipp",
+        rel := "me noopener noreferrer",
+        target := "_blank"
+      )(
+        (img(
+          Style.scaleOnHover,
+          src := "../images/mastodon.svg",
+          alt := "mastodon logo"
+        ))
       )
     )
   }

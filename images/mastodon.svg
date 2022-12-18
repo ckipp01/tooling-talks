@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 417.8889 448.07172"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="Font_Awesome_5_brands_mastodon.svg"
+   width="417.88889"
+   height="448.07172"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview6"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="171.00702"
+     inkscape:cy="224.05908"
+     inkscape:window-x="2524"
+     inkscape:window-y="80"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4" />
+  <path
+     d="m 417.87313,147.11265 c 0,-97.200002 -63.7,-125.700002 -63.7,-125.700002 -62.5,-28.7000002 -228.5,-28.4000002 -290.4,0 0,0 -63.69999981,28.5 -63.69999981,125.700002 0,115.7 -6.59999999,259.4 105.59999981,289.1 40.5,10.7 75.3,13 103.3,11.4 50.8,-2.8 79.3,-18.1 79.3,-18.1 l -1.7,-36.9 c 0,0 -36.3,11.4 -77.1,10.1 -40.4,-1.4 -83,-4.4 -89.6,-54 -0.6,-4.4 -0.9,-9 -0.9,-13.9 85.6,20.9 158.6,9.1 178.7,6.7 56.1,-6.7 105,-41.3 111.2,-72.9 9.8,-49.8 9,-121.5 9,-121.5 z m -75.1,125.2 h -46.6 v -114.2 c 0,-49.7 -64,-51.6 -64,6.9 v 62.5 h -46.3 v -62.5 c 0,-58.5 -64,-56.6 -64,-6.9 v 114.2 h -46.7 c 0,-122.1 -5.2,-147.9 18.4,-175.000002 25.9,-28.9 79.8,-30.8 103.8,6.100002 l 11.6,19.5 11.6,-19.5 c 24.1,-37.100002 78.1,-34.800002 103.8,-6.100002 23.7,27.300002 18.4,53.000002 18.4,175.000002 z"
+     id="path2"
+     inkscape:connector-curvature="0" />
+</svg>
+<!--
+Font Awesome Free 5.4.1 by @fontawesome - https://fontawesome.com
+License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+-->
+
