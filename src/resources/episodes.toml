@@ -547,3 +547,12 @@
   [[episodes.links]]
     name = "The Journey of a Dotty Diagnostic blog post"
     link = "https://www.chris-kipp.io/blog/the-journey-of-a-dotty-diagnostic"
+
+[[episodes]]
+  title = "An End to Season 1"
+  player = """<div id="buzzsprout-player-11959278"></div><script src="https://www.buzzsprout.com/1830936/11959278-an-end-to-season-1.js?container_id=buzzsprout-player-11959278&player=small" type="text/javascript" charset="utf-8"></script>"""
+  image = "images/bare-logo.png"
+  thumbnail = "images/logo-thumbnail.jpg"
+  season = 1
+  number = 18
+  notes = """A short message about the end of Season 1. Thank you so much for everyone out there listening, and I hope to see you in Season 2."""
