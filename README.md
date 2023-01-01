@@ -6,16 +6,18 @@ Tooling talks is a series of talks about developer tooling, primarily in the
 Scala ecosystem. Visit [tooling-talks.com](https://www.tooling-talks.com) for
 links to your favorite podcast service, or just listen on the site.
 
-If you have any questions you'd like to be asked to the next guest you can ask
-them [here under their
-announcement!](https://github.com/ckipp01/tooling-talks/discussions)
+If you have any questions or guest recommendations don't hesitate to reach out!
+You can find discussion on past episodes in the
+[discussions](https://github.com/ckipp01/tooling-talks/discussions).
 
 ## Next Guest
 
-- A talk with [Krzysztof Romanowski](https://twitter.com/RomanowskiKr)
- 
+Season 1 has ended and I'm working hard at figuring out what Season 2 will look
+like. Once I figure that out, please check back!
+
 ## Past Guests
 
+- [Krzysztof Romanowski: VirtusLab, a Tooling Powerhouse](https://www.tooling-talks.com/episode-17) - November 2022
 - [Gabriele Petronella: The Scala Improvement Process (SIP)](https://www.tooling-talks.com/episode-16) - October 2022
 - [Filip Zybała: Scaladoc from Scratch](https://www.tooling-talks.com/episode-15) - September 2022
 - [Jeremy Smith: Polynote and Notebooks](https://www.tooling-talks.com/episode-14) - August 2022
