@@ -1,7 +1,7 @@
 //> using scala "2.13.10"
-//> using lib "com.lihaoyi::scalatags:0.12.0"
-//> using lib "tech.sparse::toml-scala:0.2.2"
-//> using lib "com.outr::scribe:3.10.5"
+//> using dep com.lihaoyi::scalatags:0.13.1
+//> using dep "tech.sparse::toml-scala:0.2.2"
+//> using dep com.outr::scribe:3.10.5
 //> using option "-Wunused"
 //> using resourceDir "./resources"
 
