@@ -6,4 +6,4 @@
 # in CI for vercel.
 curl -fL https://github.com/Virtuslab/scala-cli/releases/latest/download/scala-cli-x86_64-pc-linux.gz | gzip -d > scala-cli
 chmod +x scala-cli
-./scala-cli run src/
+./scala-cli run src/ --server=false
